@@ -1,0 +1,1226 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ドラクエウォーク 所持チェック</title>
+<style>
+:root { --ink:#28242a; --muted:#7a7079; --line:#e7dfe1; --paper:#fffaf6; --card:#ffffff; --accent:#a34258; --gold:#c18a32; --owned-bg:#fff4e0; --owned-border:#dcb86d; --owned-text:#9b6b16; }
+html[data-theme="dark"] { --ink:#eee9ec; --muted:#a79aa1; --line:#3a333a; --paper:#1c181c; --card:#262126; --accent:#e08fa0; --gold:#e0b45a; --owned-bg:#3a2f1c; --owned-border:#8a6a2e; --owned-text:#f0c76a; }
+html[data-theme="lavender"] { --ink:#332b45; --muted:#7d7191; --line:#e3ddef; --paper:#f7f4fb; --card:#ffffff; --accent:#7b5ea7; --gold:#b08968; --owned-bg:#efe7f9; --owned-border:#c4a8e0; --owned-text:#5f3d92; }
+html[data-theme="navy"] { --ink:#1b2a41; --muted:#5c6f87; --line:#dbe2ea; --paper:#f4f7fb; --card:#ffffff; --accent:#1f4e8c; --gold:#b8860b; --owned-bg:#eaf0fa; --owned-border:#8fb3de; --owned-text:#1f4e8c; }
+html[data-theme="terracotta"] { --ink:#3a2618; --muted:#8a6a54; --line:#ecddce; --paper:#fdf6ef; --card:#ffffff; --accent:#c1622c; --gold:#b8860b; --owned-bg:#fbe6d3; --owned-border:#e0a066; --owned-text:#a04e1c; }
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:var(--paper); font-family:"Yu Gothic", "Meiryo", sans-serif; }
+.layout { max-width:1320px; margin:0 auto; display:flex; gap:28px; align-items:flex-start; padding:0 20px; }
+main { max-width:1040px; flex:1; min-width:0; margin:0; padding:38px 0 70px; }
+.side { width:260px; flex:0 0 260px; padding:38px 0 40px; }
+.side-card { background:var(--card); border:1px solid var(--line); padding:16px; margin-bottom:16px; }
+.side-card h3 { margin:0 0 8px; font-size:14px; }
+.side-card p { margin:0 0 8px; color:var(--muted); font-size:12.5px; line-height:1.7; }
+.side-card a { color:var(--accent); font-size:12px; }
+.side-card .sub { display:block; margin:10px 0 4px; color:var(--ink); font-size:12.5px; font-weight:700; }
+.side-card ul { margin:0 0 8px; padding-left:16px; color:var(--muted); font-size:12px; line-height:1.65; }
+.side-card li { list-style:disc; margin-bottom:2px; }
+.white-heart-table { width:100%; border-collapse:collapse; margin:6px 0 10px; font-size:12px; }
+.white-heart-table th, .white-heart-table td { padding:5px 8px; border-bottom:1px solid var(--line); text-align:left; }
+.white-heart-table thead th { color:var(--muted); font-weight:700; }
+.white-heart-table tbody td:first-child { color:var(--ink); font-weight:700; white-space:nowrap; }
+.white-heart-table tbody td:last-child { color:var(--accent); font-weight:700; }
+.side-title { display:block; font-size:12px; font-weight:700; color:var(--muted); margin-bottom:8px; }
+.theme-buttons { display:flex; gap:8px; flex-wrap:wrap; }
+.theme-btn { width:32px; height:32px; padding:0; border-radius:50%; border:2px solid var(--line); cursor:pointer; }
+.theme-btn.active { border-color:var(--accent); }
+.theme-btn.t-default { background:linear-gradient(135deg,#fffaf6 50%,#a34258 50%); }
+.theme-btn.t-dark { background:linear-gradient(135deg,#1c181c 50%,#e08fa0 50%); }
+.theme-btn.t-lavender { background:linear-gradient(135deg,#f7f4fb 50%,#7b5ea7 50%); }
+.theme-btn.t-navy { background:linear-gradient(135deg,#f4f7fb 50%,#1f4e8c 50%); }
+.theme-btn.t-terracotta { background:linear-gradient(135deg,#fdf6ef 50%,#c1622c 50%); }
+@media (max-width:900px) { .layout { flex-direction:column; padding:0 15px; } .side { width:100%; flex:0 0 auto; padding:24px 0 0; } }
+.eyebrow { color:var(--accent); font-size:12px; font-weight:700; letter-spacing:.14em; }
+h1 { margin:8px 0 6px; font-size:clamp(28px, 5vw, 46px); }
+.lead { margin:0; color:var(--muted); line-height:1.7; }
+.toolbar { display:flex; gap:10px; flex-wrap:wrap; margin:28px 0 18px; }
+input[type=search] { flex:1; min-width:220px; padding:13px 15px; border:1px solid var(--line); background:var(--card); color:var(--ink); font-size:15px; border-radius:5px; }
+button { border:1px solid var(--line); background:var(--card); color:var(--ink); padding:11px 14px; border-radius:5px; cursor:pointer; font-size:14px; }
+button:hover { border-color:var(--accent); color:var(--accent); }
+.summary { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:28px; }
+.stat { padding:12px 16px; border-left:3px solid var(--accent); background:var(--card); }
+.stat strong { font-size:21px; margin-right:4px; }
+.tabs { display:flex; gap:4px; border-bottom:1px solid var(--line); margin-bottom:20px; flex-wrap:wrap; }
+.tab { border:0; border-bottom:3px solid transparent; border-radius:0; background:transparent; color:var(--ink); }
+.tab.active { border-bottom-color:var(--accent); color:var(--accent); font-weight:700; }
+.subtabs { border-bottom:0; margin:-10px 0 20px; }
+.subtabs .tab { font-size:12.5px; padding:7px 10px; border:1px solid var(--line); border-radius:14px; }
+.subtabs .tab.active { background:var(--accent); border-color:var(--accent); color:#fff; }
+.subtabs[hidden] { display:none; }
+.grid { display:grid; grid-template-columns:repeat(3, 1fr); gap:12px; }
+.item { position:relative; min-height:148px; background:var(--card); border:1px solid var(--line); padding:17px; transition:.18s; }
+.item.owned { background:var(--owned-bg); border-color:var(--owned-border); }
+.item.owned::after { content:"所持"; position:absolute; top:12px; right:12px; color:var(--owned-text); font-size:12px; font-weight:700; }
+.item h2 { font-size:17px; margin:22px 0 7px; padding-right:35px; }
+.item-image { display:block; width:50px; height:50px; object-fit:contain; float:left; margin-right:10px; border-radius:6px; overflow:hidden; transform:scale(1.16); }
+.item p { color:var(--muted); font-size:13px; margin:0 0 20px; }
+.item a { color:var(--accent); font-size:12px; }
+.recommend { margin-top:16px; padding-top:12px; border-top:1px solid var(--line); }
+.recommend strong { font-size:13px; }
+.recommend ul { margin:7px 0 0; padding-left:18px; color:var(--muted); font-size:12px; line-height:1.7; }
+.recommend li { list-style:disc; }
+.recommend li.owned-heart { color:var(--owned-text); font-weight:700; }
+.recommend .match { color:var(--muted); font-size:11px; margin-left:4px; }
+.recommend .modal-related-empty { margin:7px 0 0; color:var(--muted); font-size:12px; }
+.long-detail { margin-top:12px; padding-top:10px; border-top:1px solid var(--line); }
+.long-detail strong { font-size:12px; color:var(--accent); }
+.long-detail p { color:var(--muted); font-size:12.5px; line-height:1.7; margin:6px 0 0; }
+.detail-btn { margin-top:10px; font-size:12.5px; padding:8px 12px; }
+.modal-overlay { position:fixed; inset:0; background:rgba(20,15,18,.55); display:flex; align-items:center; justify-content:center; padding:20px; z-index:50; }
+.modal-overlay[hidden] { display:none; }
+.modal-box { background:var(--card); border:1px solid var(--line); max-width:480px; width:100%; max-height:85vh; overflow-y:auto; padding:24px; position:relative; border-radius:6px; }
+.modal-box img { display:block; width:88px; height:88px; object-fit:contain; margin:0 auto 12px; border-radius:10px; overflow:hidden; transform:scale(1.16); }
+.modal-box h2 { margin:0 0 10px; font-size:19px; text-align:center; }
+.modal-box .modal-stat { color:var(--muted); font-size:13px; line-height:1.7; margin:0 0 16px; padding-bottom:14px; border-bottom:1px solid var(--line); }
+.modal-box .modal-detail { font-size:13.5px; line-height:1.8; margin:0 0 16px; }
+.modal-box .modal-detail.empty { color:var(--muted); font-style:normal; }
+.modal-box a.modal-link { display:inline-block; margin-bottom:14px; color:var(--accent); font-size:12.5px; }
+.modal-close { position:absolute; top:12px; right:14px; border:0; background:transparent; font-size:20px; line-height:1; padding:4px 8px; cursor:pointer; color:var(--muted); }
+.modal-close:hover { color:var(--accent); }
+.modal-related { margin:0 0 16px; padding-top:14px; border-top:1px solid var(--line); }
+.modal-related[hidden] { display:none; }
+.modal-related strong { font-size:12.5px; color:var(--accent); }
+.modal-related-list { margin:8px 0 0; padding-left:18px; color:var(--muted); font-size:12.5px; line-height:1.8; }
+.modal-related-list li { list-style:disc; }
+.modal-related-list li.owned-heart { color:var(--owned-text); font-weight:700; }
+.modal-related-list .match { color:var(--muted); font-size:11px; margin-left:4px; }
+.modal-related-empty { margin:8px 0 0; color:var(--muted); font-size:12.5px; }
+.check { display:flex; align-items:center; gap:8px; font-weight:700; font-size:14px; cursor:pointer; }
+.check input { width:18px; height:18px; accent-color:var(--accent); }
+.count-group { display:flex; align-items:center; gap:10px; flex-wrap:wrap; font-size:13px; }
+.count-group label { display:flex; align-items:center; gap:4px; font-weight:700; cursor:pointer; }
+.count-group input { width:16px; height:16px; accent-color:var(--accent); }
+.count-clear { font-size:11.5px; padding:4px 8px; color:var(--muted); }
+.job-item h2 { margin-top:10px; clear:both; }
+.job-category { display:inline-block; font-size:11.5px; font-weight:700; color:var(--accent); border:1px solid var(--accent); border-radius:10px; padding:2px 9px; }
+.job-item .item-image { float:left; }
+.job-hearts { margin:0 0 14px; font-size:12.5px; }
+.job-hearts strong { display:block; font-size:12px; color:var(--accent); margin-bottom:6px; }
+.heart-slot { display:inline-block; font-size:11.5px; border:1px solid var(--line); border-radius:10px; padding:2px 8px; margin:0 4px 4px 0; color:var(--muted); }
+.heart-slot-icon { width:26px; height:26px; object-fit:contain; margin:0 4px 4px 0; vertical-align:middle; }
+.job-traits { margin-top:12px; padding-top:10px; border-top:1px solid var(--line); }
+.job-traits strong { font-size:12px; color:var(--accent); }
+.job-traits ul { margin:6px 0 0; padding-left:18px; }
+.job-traits li { list-style:disc; font-size:12.5px; line-height:1.7; color:var(--muted); margin-bottom:8px; }
+.trait-name { display:block; font-weight:700; color:var(--ink); }
+#simPanel[hidden] { display:none; }
+.sim-job-select { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:24px; }
+.sim-job-select select { padding:10px 12px; border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:5px; font-size:14px; }
+.sim-ignore-color { display:flex; align-items:center; gap:6px; font-size:13px; cursor:pointer; }
+.sim-ignore-color input { width:16px; height:16px; accent-color:var(--accent); }
+.sim-total { padding:14px 18px; background:var(--card); border-left:3px solid var(--accent); margin-bottom:20px; font-size:15px; }
+.sim-total strong { font-size:22px; margin:0 6px; }
+.sim-slots { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px,1fr)); gap:14px; }
+.sim-slot { background:var(--card); border:1px solid var(--line); padding:14px; border-radius:6px; }
+.sim-slot-label { display:flex; align-items:center; gap:8px; margin-bottom:10px; font-size:12.5px; color:var(--muted); }
+.sim-slot select { width:100%; padding:9px 10px; border:1px solid var(--line); background:var(--paper); color:var(--ink); border-radius:5px; font-size:13.5px; }
+.sim-slot-heart-image { display:block; width:100%; max-width:120px; margin:0 auto 10px; border-radius:6px; }
+.sim-slot-cost { margin-top:8px; font-size:12.5px; color:var(--muted); }
+.sim-slot-detail { margin-top:10px; padding-top:10px; border-top:1px solid var(--line); }
+.sim-slot-detail strong { font-size:11.5px; color:var(--accent); }
+.sim-slot-detail p { margin:6px 0 0; font-size:12.5px; line-height:1.7; color:var(--muted); }
+.sim-slot-detail.long strong { color:var(--ink); }
+.sim-empty { color:var(--muted); padding:30px 0; }
+.sim-summary { margin-top:22px; padding:16px 18px; background:var(--card); border:1px solid var(--line); border-radius:6px; }
+.sim-summary > strong { display:block; font-size:13px; color:var(--accent); margin-bottom:10px; }
+.sim-summary-list { margin:0; padding-left:18px; }
+.sim-summary-list li { list-style:disc; margin-bottom:12px; font-size:12.5px; line-height:1.7; color:var(--muted); }
+.sim-summary-list .trait-name { display:inline-block; min-width:180px; font-weight:700; margin-right:6px; }
+.effect-dot { display:inline-block; width:9px; height:9px; border-radius:50%; margin-right:6px; vertical-align:middle; border:1px solid rgba(0,0,0,0.15); }
+.sim-summary-list li { list-style:none; margin-left:-18px; }
+.sim-summary-conditional { margin-top:16px; padding-top:12px; border-top:1px solid var(--line); }
+.sim-summary-conditional > strong { display:block; font-size:12px; color:var(--muted); margin-bottom:8px; font-weight:700; }
+.sim-job-select-shared { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin-bottom:22px; padding:14px 18px; background:var(--card); border:1px solid var(--line); border-radius:6px; }
+.sim-job-select-shared select { padding:9px 10px; border:1px solid var(--line); background:var(--paper); color:var(--ink); border-radius:5px; font-size:13.5px; }
+.sim-patterns { display:flex; flex-direction:column; gap:26px; }
+.sim-pattern { padding-top:22px; border-top:2px solid var(--line); }
+.sim-pattern:first-child { padding-top:0; border-top:0; }
+.sim-pattern-title { margin:0 0 12px; font-size:16px; color:var(--accent); }
+.sim-compare { margin-top:30px; padding:16px 18px; background:var(--card); border:1px solid var(--line); border-radius:6px; }
+.sim-compare > strong { display:block; font-size:13px; color:var(--accent); margin-bottom:10px; }
+.sim-compare-scroll { overflow-x:auto; }
+.sim-compare-table { width:100%; border-collapse:collapse; font-size:12.5px; }
+.sim-compare-table th, .sim-compare-table td { padding:8px 10px; border-bottom:1px solid var(--line); text-align:left; white-space:nowrap; }
+.sim-compare-table thead th { color:var(--muted); font-weight:700; }
+.sim-compare-table tbody th { color:var(--ink); font-weight:700; }
+@media (max-width:480px) { .sim-slots { grid-template-columns:1fr; } }
+.sim-pattern-title-row { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+.sim-pattern-title-row .sim-pattern-title { margin:0; }
+.saved-builds { margin-top:30px; padding:16px 18px; background:var(--card); border:1px solid var(--line); border-radius:6px; }
+.saved-builds > strong { display:block; font-size:13px; color:var(--accent); margin-bottom:10px; }
+.saved-build-row { display:flex; align-items:center; gap:8px; flex-wrap:wrap; padding:10px 0; border-bottom:1px solid var(--line); }
+.saved-build-row:last-child { border-bottom:0; }
+.saved-build-name { font-weight:700; margin-right:auto; }
+.saved-build-meta { font-size:12px; color:var(--muted); width:100%; }
+.saved-build-actions { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+.saved-build-actions button { font-size:12px; padding:6px 9px; }
+.empty { color:var(--muted); padding:30px 0; }
+footer { margin-top:38px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; line-height:1.7; }
+.visit-counter { margin-top:8px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.visit-counter img { height:20px; }
+@media (max-width:720px) { main { padding:30px 15px 52px; } .grid { grid-template-columns:repeat(2,1fr); } }
+@media (max-width:480px) { .grid { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<div class="layout">
+<aside class="side">
+<div class="side-card">
+<span class="side-title">見た目の色</span>
+<div class="theme-buttons">
+<button class="theme-btn t-default" data-theme="default" title="デフォルト"></button>
+<button class="theme-btn t-dark" data-theme="dark" title="ダーク"></button>
+<button class="theme-btn t-lavender" data-theme="lavender" title="パステルラベンダー"></button>
+<button class="theme-btn t-navy" data-theme="navy" title="紺×ゴールド"></button>
+<button class="theme-btn t-terracotta" data-theme="terracotta" title="テラコッタ"></button>
+</div>
+</div>
+<div class="side-card">
+<h3>テンションとは</h3>
+<p>バトル中に発生する強化・弱化状態。プラス4段階／状態なし／マイナス4段階の9段階で、段階が上がるほど一部の特殊効果の効果値が上がります（下がると低下）。</p>
+<span class="sub">段階ごとの効果値</span>
+<ul>
+<li>1段階：1.1倍</li>
+<li>2段階：1.2倍</li>
+<li>3段階：1.3倍</li>
+<li>4段階（スーパーハイテンション）：1.5倍＋職業ごとの固有特性が強化</li>
+<li>マイナス側は0.5倍〜0.05倍まで低下</li>
+</ul>
+<span class="sub">上がる条件</span>
+<ul>
+<li>HP回復を受けた時（いきなり/挑戦スキルの回復は対象外）</li>
+<li>敵からダメージを受けた時（ガード・みかわし成功時は対象外）</li>
+<li>攻撃力アップなど状態変化を受けた時</li>
+<li>テンション段階を増減させる効果を受けた時</li>
+<li>味方・敵1体ごとに1ターン1回までの制限あり</li>
+</ul>
+<span class="sub">下がる条件・注意点</span>
+<ul>
+<li>敵の「テンション低下」攻撃を受けた時に確率で低下（まもりのたてでは防げない）</li>
+<li>幸運レベル3で発動確率が2倍</li>
+<li>経験値・ゴールドなど一部の特殊効果には影響しない</li>
+<li>関連装備の例：八竜神の剣、ロトの竜剣</li>
+</ul>
+</div>
+<div class="side-card">
+<h3>ゾーンとは</h3>
+<p>対応するスキルやこころを使うと確率で入れる特別な状態。5ターン継続します。</p>
+<span class="sub">効果</span>
+<ul>
+<li>スキルダメージ・属性ダメージ・会心ダメージ・HP回復などが1.5倍（上限なし）</li>
+<li>属性耐性・状態異常成功率・会心率・魔力の暴走率は上限50%まで上昇</li>
+<li>職業ごとの追加ボーナスが発動</li>
+<li>2人以上がゾーン中だと「れんけい効果」「れんけいスキル」が使用可能</li>
+</ul>
+<span class="sub">発動条件</span>
+<ul>
+<li>対応する武器スキルやこころが必要（例：いきなり新世界、極限集中、イレブンとカミュ、ベロニカとセーニャ）</li>
+<li>歩数が多いほど発動率アップ。1万歩以上で最大（確率は約1〜5%）</li>
+<li>歩数は毎日0時にリセット</li>
+<li>幸運レベルでさらに上昇：Lv1で1.4倍、Lv2で1.7倍、Lv3で2.0倍</li>
+</ul>
+<span class="sub">解除・テンションとの関係</span>
+<ul>
+<li>5ターン経過、またはれんけいスキル使用で解除</li>
+<li>テンションと同時に発生時は倍率の高い方だけが適用（加算はされない）</li>
+<li>ただしテンション最大時の職業固有特性は併用できる</li>
+</ul>
+</div>
+<div class="side-card">
+<h3>白いこころの使用</h3>
+<p>装備した「枠の色」によって上がるステータスが変わる、特殊なこころです。2026年1月1日に「リュウちゃん(覚醒)」で初めて実装されました。職業との色合わせボーナスは無く、こころ道にも対応していません。</p>
+<span class="sub">枠の色ごとの上昇ステータス</span>
+<table class="white-heart-table">
+<thead><tr><th>装備した枠の色</th><th>上がるステータス</th></tr></thead>
+<tbody>
+<tr><td>赤</td><td>ちから ×2</td></tr>
+<tr><td>黄</td><td>みのまもり ×2</td></tr>
+<tr><td>紫</td><td>攻撃魔力 ×2</td></tr>
+<tr><td>緑</td><td>回復魔力 ×2</td></tr>
+<tr><td>青</td><td>すばやさ ×2</td></tr>
+<tr><td>虹（基本職・上級職）</td><td>全ステータス ×1.1</td></tr>
+<tr><td>虹（特級職）</td><td>全ステータス ×1.15</td></tr>
+</tbody>
+</table>
+<span class="sub">注意点</span>
+<ul>
+<li>赤黄枠のような複合の色枠では、対応するステータスがまとめて上がります</li>
+<li>こころ道（強化）は使えません</li>
+</ul>
+</div>
+</aside>
+<main>
+<span class="eyebrow">DRAGON QUEST WALK / PERSONAL TRACKER</span>
+<h1>所持チェック</h1>
+<p class="lead">武器とこころを検索して、持っているものに印を付けられます。チェック内容はこのブラウザに保存されます。</p>
+<div class="toolbar"><input id="search" type="search" placeholder="名前や特徴で検索"><button id="allOwned">表示中を全て所持</button><button id="allUnowned">表示中を全て未所持</button><button id="export">バックアップ</button><button id="import">復元</button><input id="file" type="file" accept="application/json" hidden></div>
+<div class="summary"><div class="stat"><strong id="ownedCount">0</strong> 所持</div><div class="stat"><strong id="totalCount">0</strong> 全体</div><div class="stat">更新日：<strong id="updatedAt">-</strong></div></div>
+<div class="tabs" id="mainTabs"><button class="tab active" data-type="all">すべて</button><button class="tab" data-type="weapon">武器</button><button class="tab" data-type="armor">防具</button><button class="tab" data-type="heart">こころ</button><button class="tab" data-type="job">職業</button><button class="tab" data-type="sim">こころ編成</button><button class="tab" data-type="unowned">未所持だけ</button></div>
+<div id="subTabs" class="tabs subtabs" hidden></div>
+<div id="subTabsKeito" class="tabs subtabs" hidden></div>
+<div id="subTabsSkill" class="tabs subtabs" hidden></div>
+<div id="grid" class="grid"></div>
+<div id="simPanel" hidden></div>
+<div id="modalOverlay" class="modal-overlay" hidden>
+  <div class="modal-box">
+    <button id="modalClose" class="modal-close" aria-label="閉じる">×</button>
+    <img id="modalImage" src="" alt="">
+    <h2 id="modalName"></h2>
+    <p id="modalStat" class="modal-stat"></p>
+    <p id="modalDetail" class="modal-detail"></p>
+    <div id="modalRelated" class="modal-related">
+      <strong id="modalRelatedTitle"></strong>
+      <div id="modalRelatedBody"></div>
+    </div>
+    <a id="modalLink" class="modal-link" href="#" target="_blank" rel="noopener">元ページで画像・詳細を見る</a>
+  </div>
+</div>
+<footer>本サイトは、株式会社スクウェア・エニックスとは関係のない、個人が運営する非公式のファンサイトです。「ドラゴンクエスト」「ドラゴンクエストウォーク」等の名称・商標は株式会社スクウェア・エニックスに帰属します。<br>参考情報：<a href="https://gamewith.jp/dq-walk/" target="_blank" rel="noopener">GameWith（ドラクエウォーク）</a><br>この画面のチェック情報は外部サイトへ送信せず、このブラウザ内に保存します。表示データはGameWithの一覧を取得して更新できます。<br>アクセス数のカウントには、外部の無料カウンターサービス（visitor-badge）を利用しています。<div class="visit-counter"><img id="visitTodayBadge" alt="本日のアクセス"><img id="visitTotalBadge" alt="累計のアクセス"></div></footer>
+</main>
+</div>
+<script>
+const state = {
+  data: null,
+  jobs: [],
+  heartColorIcons: {},
+  owned: JSON.parse(localStorage.getItem('dqwalk-owned') || '{}'),
+  heartCount: JSON.parse(localStorage.getItem('dqwalk-heart-count') || '{}'),
+  type: 'all',
+  subFilter: 'all',
+  heartKeitoFilter: 'all',
+  heartSkillFilter: 'all',
+  simJobName: '',
+  simPatterns: [
+    { selections: {}, sort: 'name', sortDir: 'asc', search: '', ignoreColor: false },
+    { selections: {}, sort: 'name', sortDir: 'asc', search: '', ignoreColor: false },
+    { selections: {}, sort: 'name', sortDir: 'asc', search: '', ignoreColor: false },
+  ],
+  savedHeartBuilds: JSON.parse(localStorage.getItem('dqwalk-heart-builds') || '[]'),
+};
+const MAX_SAVED_HEART_BUILDS = 10;
+function persistSavedHeartBuilds() {
+  localStorage.setItem('dqwalk-heart-builds', JSON.stringify(state.savedHeartBuilds));
+}
+let simSearchDebounceTimers = [null, null, null];
+let simSearchComposing = [false, false, false];
+const $ = (selector) => document.querySelector(selector);
+const WEAPON_CATEGORIES_ORDER = ['片手剣', 'オノ', '短剣', '杖', 'こん', 'ヤリ', 'ツメ', 'ムチ', 'ブーメラン', '両手剣', 'EX'];
+const ARMOR_CATEGORIES_ORDER = ['盾', '頭', 'よろい上', 'よろい下'];
+const HEART_COLORS_ORDER = ['赤', '青', '黄', '紫', '緑', '黒', '白', '虹'];
+const HEART_COLOR_TEXT = { '赤': '#c62828', '青': '#1565c0', '黄': '#b8860b', '緑': '#2e7d32', '紫': '#7b1fa2', '黒': '#333333', '白': '#8a8a8a', '虹': '#d81b60' };
+function heartOptionColor(heart) {
+  const colors = Array.isArray(heart.color) ? heart.color : [];
+  const key = colors.find(color => HEART_COLOR_TEXT[color]) || colors[0];
+  return HEART_COLOR_TEXT[key] || '';
+}
+const HEART_KEITO_ORDER = ['スライム系', '鳥系', '虫系', '植物系', '物質系', 'エレメント系', '水系', '獣系', '悪魔系', 'マシン系', 'ゾンビ系', '怪人系', 'ドラゴン系', '????系', 'その他/特別'];
+const JOB_CATEGORIES_ORDER = ['基本職', '上級職', '特級職', 'EX職'];
+const JOB_OVERVIEW = {
+  '戦士': 'HP・攻撃力・防御力が高い物理系アタッカー。敵にダメージを与えつつ生き残る力が高く、パーティの主力攻撃役。',
+  '僧侶': '回復に特化した職業。味方のHP回復が得意で、パーティには必ず1人欲しい存在。',
+  '武闘家': '攻撃とすばやさに優れた物理系。会心の一撃が発生しやすく、先手でガンガン攻撃していく。',
+  '魔法使い': 'こうげき魔力がトップクラスの呪文攻撃専門家。全体・単体の両方の魔法を使える。',
+  '盗賊': '物理・魔法の両方を使える器用系。状態異常付与率が高く、敵の弱体化を狙える。',
+  '遊び人': 'ランダムな行動をしてしまうため扱いづらい職業。実用性は低め。',
+  '踊り子': '全体回復スキルを習得でき、サポート役として機能する。',
+  'バトルマスター': 'パーティの火力担当。固有特性「怒り」で斬撃・体技ダメージをアップさせる。',
+  '賢者': '回復と呪文攻撃の両方が可能。用途に合わせて運用できる汎用職。',
+  'レンジャー': '敵を休み状態にする「影縛り」が特徴。防御寄りのサポート能力が高い。',
+  '魔法戦士': '物理と呪文の両方に対応。「フォースブレイク」で敵の属性耐性を低下させる。',
+  'パラディン': 'タンク役として活躍。固有特性で味方をかばい、瀕死ダメージ時に生き残る。',
+  'スーパースター': '固有特性「ショータイム」で味方にランダムな良い効果を付与する。',
+  '海賊': '敵を弱体化するアタッカー。「威圧」で相手の火力を低下させる。',
+  'まものマスター': '仲間モンスター集めに特化。「スカウトサーチ」と「ふか名人」の2つの固有特性を持つ。',
+  'ゴッドハンド': 'バトマス＋パラディン。火力兼盾役として活躍できる。',
+  '大魔道士': '賢者＋魔法戦士。攻撃呪文のスペシャリストで、属性統一パーティに最適。',
+  '大神官': '賢者＋スーパースター。回復と補助を得意とするパーティの生命線。',
+  'ニンジャ': 'レンジャー＋海賊。補助やデバフを得意とする職業。',
+  '魔剣士': 'バトマス＋魔法戦士。自力で超火力を出せる攻撃特化の職業。',
+  '守り人': 'パラディン＋スーパースター。盾役として活躍できる。',
+  'ドラゴン': 'まもマス＋海賊。火力が高いアタッカーであり、スカウト要員でもある。',
+  '天地雷鳴士': '賢者・まもマス・レンジャーのいずれか2職業から転職。3つの加護を駆使して戦う攻撃役。',
+  '魔人': 'バトマス＋まもマス。二刀流で大ダメージを狙っていく物理攻撃役。',
+  '時渡りの剣士': 'バトマス＋スパスタ。時間操作をして戦う物理攻撃役。',
+  '魔弾の剣士': '魔法戦士＋海賊。魔弾を駆使して戦う新しい特級職。',
+  '釣り人': '7周年を記念して実装された、釣り専用のEX職。',
+};
+function isOwned(item) {
+  return item.type === 'heart' ? (state.heartCount[item.id] || 0) > 0 : !!state.owned[item.id];
+}
+function visibleItems() {
+  const query = $('#search').value.trim().toLowerCase();
+  return state.data.items.filter(item => {
+    const typeOk = state.type === 'all' || state.type === 'unowned' ? true : item.type === state.type;
+    const ownedOk = state.type !== 'unowned' || !isOwned(item);
+    const queryOk = !query || `${item.name} ${item.detail}`.toLowerCase().includes(query);
+    const subOk = state.subFilter === 'all' ? true
+      : state.type === 'weapon' ? item.category === state.subFilter
+      : state.type === 'armor' ? item.category === state.subFilter
+      : state.type === 'heart' ? Array.isArray(item.color) && item.color.includes(state.subFilter)
+      : true;
+    const keitoOk = state.type !== 'heart' || state.heartKeitoFilter === 'all'
+      || (Array.isArray(item.keito) && item.keito.includes(state.heartKeitoFilter));
+    const skillOk = state.type !== 'heart' || state.heartSkillFilter === 'all'
+      || heartGrantedSkillNames(item).includes(state.heartSkillFilter);
+    return typeOk && ownedOk && queryOk && subOk && keitoOk && skillOk;
+  }).sort((left, right) => state.type === 'heart'
+    ? (right.cost ?? -1) - (left.cost ?? -1)
+    : (extractRating(right) ?? -1) - (extractRating(left) ?? -1));
+}
+function renderSubTabs() {
+  const el = $('#subTabs');
+  const list = state.type === 'weapon' ? WEAPON_CATEGORIES_ORDER : state.type === 'armor' ? ARMOR_CATEGORIES_ORDER : state.type === 'heart' ? HEART_COLORS_ORDER : state.type === 'job' ? JOB_CATEGORIES_ORDER : null;
+  if (!list) { el.hidden = true; el.innerHTML = ''; } else {
+    el.hidden = false;
+    el.innerHTML = ['<button class="tab ' + (state.subFilter === 'all' ? 'active' : '') + '" data-sub="all">すべて</button>']
+      .concat(list.map(value => `<button class="tab ${state.subFilter === value ? 'active' : ''}" data-sub="${escapeHtml(value)}">${escapeHtml(value)}</button>`))
+      .join('');
+    el.querySelectorAll('[data-sub]').forEach(btn => btn.addEventListener('click', () => { state.subFilter = btn.dataset.sub; render(); }));
+  }
+  const keitoEl = $('#subTabsKeito');
+  const skillEl = $('#subTabsSkill');
+  if (state.type !== 'heart') {
+    keitoEl.hidden = true; keitoEl.innerHTML = '';
+    skillEl.hidden = true; skillEl.innerHTML = '';
+    return;
+  }
+  keitoEl.hidden = false;
+  keitoEl.innerHTML = ['<button class="tab ' + (state.heartKeitoFilter === 'all' ? 'active' : '') + '" data-keito="all">すべて（系統）</button>']
+    .concat(HEART_KEITO_ORDER.map(value => `<button class="tab ${state.heartKeitoFilter === value ? 'active' : ''}" data-keito="${escapeHtml(value)}">${escapeHtml(value)}</button>`))
+    .join('');
+  keitoEl.querySelectorAll('[data-keito]').forEach(btn => btn.addEventListener('click', () => { state.heartKeitoFilter = btn.dataset.keito; render(); }));
+
+  const skillCounts = new Map();
+  state.data.items
+    .filter(item => item.type === 'heart')
+    .flatMap(heart => heartGrantedSkillNames(heart))
+    .forEach(name => skillCounts.set(name, (skillCounts.get(name) || 0) + 1));
+  const skillNames = Array.from(skillCounts.keys())
+    .filter(name => skillCounts.get(name) >= 2)
+    .sort((left, right) => left.localeCompare(right, 'ja'));
+  skillEl.hidden = false;
+  skillEl.innerHTML = ['<button class="tab ' + (state.heartSkillFilter === 'all' ? 'active' : '') + '" data-skill="all">すべて（獲得スキル・呪文）</button>']
+    .concat(skillNames.map(value => `<button class="tab ${state.heartSkillFilter === value ? 'active' : ''}" data-skill="${escapeHtml(value)}">${escapeHtml(value)}</button>`))
+    .join('');
+  skillEl.querySelectorAll('[data-skill]').forEach(btn => btn.addEventListener('click', () => { state.heartSkillFilter = btn.dataset.skill; render(); }));
+}
+function recommendationKeywords(item) {
+  const text = `${item.name} ${item.detail}`.toLowerCase();
+  const keywords = ['メラ', 'ギラ', 'ヒャド', 'バギ', 'デイン', 'ジバリア', 'イオ', 'ドルマ', '回復', '斬撃', '体技', '呪文', 'ブレス'];
+  return keywords.filter(keyword => text.includes(keyword.toLowerCase()));
+}
+const MIN_RECOMMEND_RATING = 8.5;
+function extractRating(item) {
+  const match = item.detail.match(/(\d+(?:\.\d+)?)\s*点/);
+  return match ? parseFloat(match[1]) : null;
+}
+function hideRating(text) {
+  let result = text
+    .replace(/^\s*攻略班\s*\d+(?:\.\d+)?\s*点\s*\/?\s*/, '')
+    .replace(/\s*\/\s*\d+(?:\.\d+)?\s*点\s*$/, '')
+    .trim();
+  HEART_FLAVOR_TAG_PATTERNS.forEach(pattern => { result = result.replace(pattern, ''); });
+  return result.trim();
+}
+function recommendedHearts(weapon) {
+  const keywords = recommendationKeywords(weapon);
+  if (!keywords.length) return [];
+  return state.data.items
+    .filter(item => item.type === 'heart')
+    .filter(heart => isOwned(heart) && (extractRating(heart) ?? 0) >= MIN_RECOMMEND_RATING)
+    .map(heart => {
+      const text = `${heart.name} ${heart.detail}`.toLowerCase();
+      const matched = keywords.filter(keyword => text.includes(keyword.toLowerCase()));
+      const score = matched.length * 10 + (matched.length >= 2 ? 4 : 0) + (isOwned(heart) ? 2 : 0);
+      return { heart, matched, score };
+    })
+    .filter(candidate => candidate.matched.length > 0)
+    .sort((left, right) => right.score - left.score || left.heart.name.localeCompare(right.heart.name, 'ja'))
+    .slice(0, 3);
+}
+function recommendedWeapons(heart) {
+  const keywords = recommendationKeywords(heart);
+  if (!keywords.length) return [];
+  return state.data.items
+    .filter(item => item.type === 'weapon' || item.type === 'armor')
+    .filter(weapon => isOwned(weapon) && (extractRating(weapon) ?? 0) >= MIN_RECOMMEND_RATING)
+    .map(weapon => {
+      const text = `${weapon.name} ${weapon.detail}`.toLowerCase();
+      const matched = keywords.filter(keyword => text.includes(keyword.toLowerCase()));
+      const score = matched.length * 10 + (matched.length >= 2 ? 4 : 0) + (isOwned(weapon) ? 2 : 0);
+      return { weapon, matched, score };
+    })
+    .filter(candidate => candidate.matched.length > 0)
+    .sort((left, right) => right.score - left.score || left.weapon.name.localeCompare(right.weapon.name, 'ja'))
+    .slice(0, 3);
+}
+function relatedItemLinkHtml(item) {
+  if (item.long_detail) {
+    return `<a href="${escapeHtml('detail/' + item.id + '.html')}">${escapeHtml(item.name)}</a>`;
+  }
+  return `<a href="${escapeHtml(resolveGameWithUrl(item))}" target="_blank" rel="noopener">${escapeHtml(item.name)}</a>`;
+}
+function relatedWeaponsHtml(heart) {
+  const candidates = recommendedWeapons(heart);
+  if (!candidates.length) return '<p class="modal-related-empty">所持済みで、特徴キーワードが合う武器・防具は見つかりませんでした。</p>';
+  return `<ul class="modal-related-list">${candidates.map(({weapon, matched, score}) => `<li class="${isOwned(weapon) ? 'owned-heart' : ''}">${relatedItemLinkHtml(weapon)}${isOwned(weapon) ? '（所持）' : ''}<span class="match">${matched.map(keyword => `#${keyword}`).join(' ')} / 関連${score}</span></li>`).join('')}</ul>`;
+}
+function relatedHeartsHtml(weapon) {
+  const candidates = recommendedHearts(weapon);
+  if (!candidates.length) return '<p class="modal-related-empty">所持済みで、特徴キーワードが合うこころは見つかりませんでした。</p>';
+  return `<ul class="modal-related-list">${candidates.map(({heart, matched, score}) => `<li class="${isOwned(heart) ? 'owned-heart' : ''}">${relatedItemLinkHtml(heart)}${isOwned(heart) ? '（所持）' : ''}<span class="match">${matched.map(keyword => `#${keyword}`).join(' ')} / 関連${score}</span></li>`).join('')}</ul>`;
+}
+function recommendationHtml(item) {
+  if (item.type !== 'weapon' && item.type !== 'armor') return '';
+  return `<div class="recommend"><strong>おすすめこころ候補</strong>${relatedHeartsHtml(item)}</div>`;
+}
+function resolveGameWithUrl(item) {
+  const prefersSource = () => typeof item?.source_url === 'string' && /^https:\/\/gamewith\.jp\/dq-walk\//i.test(item.source_url.trim());
+  const candidates = prefersSource() ? [item.source_url, item.detail_url, 'https://gamewith.jp/dq-walk/'] : [item.detail_url, item.source_url, 'https://gamewith.jp/dq-walk/'];
+  for (const candidate of candidates) {
+    if (typeof candidate === 'string') {
+      const normalized = candidate.trim();
+      if (/^https:\/\/gamewith\.jp\/dq-walk\//i.test(normalized)) {
+        return normalized;
+      }
+    }
+  }
+  return 'https://gamewith.jp/dq-walk/';
+}
+function itemLink(item) {
+  return resolveGameWithUrl(item);
+}
+function itemImage(item) {
+  return item.image_path ? `<img class="item-image" src="${escapeHtml(item.image_path)}" alt="${escapeHtml(item.name)}">` : '';
+}
+function outboundLinkHtml(item) {
+  if (item.long_detail) {
+    return `<a href="${escapeHtml('detail/' + item.id + '.html')}">くわしい特徴を見る（このサイト内）</a>`;
+  }
+  return `<a href="${escapeHtml(itemLink(item))}" target="_blank" rel="noopener">元ページで画像・詳細を見る</a>`;
+}
+function openDetail(id) {
+  const item = state.data.items.find(candidate => candidate.id === id);
+  if (!item) return;
+  $('#modalImage').src = item.image_path || '';
+  $('#modalImage').alt = item.name;
+  $('#modalName').textContent = item.name;
+  $('#modalStat').textContent = hideRating(item.detail);
+  const detailEl = $('#modalDetail');
+  if (item.long_detail) {
+    detailEl.textContent = '';
+    detailEl.hidden = true;
+  } else {
+    detailEl.textContent = 'この項目のくわしい説明文はまだ準備中です。';
+    detailEl.classList.add('empty');
+    detailEl.hidden = false;
+  }
+  const relatedEl = $('#modalRelated');
+  if (item.type === 'heart') {
+    $('#modalRelatedTitle').textContent = '相性のいい武器・防具候補';
+    $('#modalRelatedBody').innerHTML = relatedWeaponsHtml(item);
+    relatedEl.hidden = false;
+  } else if (item.type === 'weapon' || item.type === 'armor') {
+    $('#modalRelatedTitle').textContent = 'おすすめこころ候補';
+    $('#modalRelatedBody').innerHTML = relatedHeartsHtml(item);
+    relatedEl.hidden = false;
+  } else {
+    relatedEl.hidden = true;
+  }
+  const modalLinkEl = $('#modalLink');
+  if (item.long_detail) {
+    modalLinkEl.href = 'detail/' + item.id + '.html';
+    modalLinkEl.removeAttribute('target');
+    modalLinkEl.textContent = 'くわしい特徴を見る（このサイト内）';
+  } else {
+    modalLinkEl.href = itemLink(item);
+    modalLinkEl.setAttribute('target', '_blank');
+    modalLinkEl.textContent = '元ページで画像・詳細を見る';
+  }
+  $('#modalOverlay').hidden = false;
+}
+function closeDetail() { $('#modalOverlay').hidden = true; }
+function ownershipControlHtml(item) {
+  if (item.type !== 'heart') {
+    return `<label class="check"><input type="checkbox" data-id="${item.id}" ${state.owned[item.id] ? 'checked' : ''}> 所持している</label>`;
+  }
+  const count = state.heartCount[item.id] || 0;
+  const radios = [1, 2, 3, 4].map(value => {
+    const label = value === 4 ? '4個以上' : `${value}個`;
+    return `<label><input type="radio" name="count-${item.id}" data-count-id="${item.id}" value="${value}" ${count === value ? 'checked' : ''}> ${label}</label>`;
+  }).join('');
+  return `<div class="count-group">${radios}<button type="button" class="count-clear" data-count-clear="${item.id}">未所持にする</button></div>`;
+}
+function heartSlotsHtml(job) {
+  if (!Array.isArray(job.heart_slots) || !job.heart_slots.length) return '';
+  const slots = job.heart_slots.map(slot => {
+    const icon = state.heartColorIcons[slot];
+    return icon
+      ? `<img class="heart-slot-icon" src="${escapeHtml(icon)}" alt="${escapeHtml(slot)}" title="${escapeHtml(slot)}">`
+      : `<span class="heart-slot">${escapeHtml(slot)}</span>`;
+  }).join('');
+  return `<div class="job-hearts"><strong>こころ枠</strong> ${slots}</div>`;
+}
+function traitsHtml(job) {
+  const parts = [];
+  if (Array.isArray(job.traits) && job.traits.length) {
+    parts.push(`<div class="job-traits"><strong>固有特性</strong><ul>${job.traits.map(trait => `<li><span class="trait-name">${escapeHtml(trait.name)}</span>${escapeHtml(trait.detail)}</li>`).join('')}</ul></div>`);
+  }
+  if (Array.isArray(job.walker_skills) && job.walker_skills.length) {
+    parts.push(`<div class="job-traits"><strong>ウォーカーズスキル</strong><ul>${job.walker_skills.map(skill => `<li><span class="trait-name">${escapeHtml(skill.name)}</span>${escapeHtml(skill.detail)}</li>`).join('')}</ul></div>`);
+  }
+  if (!parts.length && job.summary) {
+    parts.push(`<p>${escapeHtml(job.summary)}</p>`);
+  }
+  if (job.tension_bonus || job.zone_bonus) {
+    const rows = [];
+    if (job.tension_bonus) rows.push(`<li><span class="trait-name">スーパーハイテンション時</span>${escapeHtml(job.tension_bonus)}</li>`);
+    if (job.zone_bonus) rows.push(`<li><span class="trait-name">ゾーン中</span>自身：${escapeHtml(job.zone_bonus.self)}／味方：${escapeHtml(job.zone_bonus.ally)}</li>`);
+    parts.push(`<div class="job-traits"><strong>テンション・ゾーンのボーナス</strong><ul>${rows.join('')}</ul></div>`);
+  }
+  return parts.join('');
+}
+function renderJobs() {
+  const query = $('#search').value.trim().toLowerCase();
+  const jobs = state.jobs.filter(job => (state.subFilter === 'all' || job.category === state.subFilter)
+    && (!query || `${job.name} ${job.summary || ''}`.toLowerCase().includes(query)));
+  $('#grid').innerHTML = jobs.length ? jobs.map(job => `<article class="item job-item">${job.image_path ? `<img class="item-image" src="${escapeHtml(job.image_path)}" alt="${escapeHtml(job.name)}">` : ''}<span class="job-category">${escapeHtml(job.category)}</span><h2>${escapeHtml(job.name)}</h2><p>${escapeHtml(JOB_OVERVIEW[job.name] || '')}</p>${heartSlotsHtml(job)}${traitsHtml(job)}</article>`).join('') : '<p class="empty">該当する職業がありません（まだ読み込み中の場合があります）。</p>';
+}
+const JOB_ABBREV_MAP = {
+  'バトマス': 'バトルマスター', '賢者': '賢者', 'レンジャー': 'レンジャー', '魔法戦士': '魔法戦士', 'パラディン': 'パラディン',
+  'スパスタ': 'スーパースター', 'スーパースター': 'スーパースター', '海賊': '海賊', 'まもマス': 'まものマスター', 'まものマスター': 'まものマスター',
+  'ゴッドハンド': 'ゴッドハンド', 'ゴドハン': 'ゴッドハンド', '大魔道士': '大魔道士', '大神官': '大神官', 'ニンジャ': 'ニンジャ',
+  '魔剣士': '魔剣士', '守り人': '守り人', 'ドラゴン': 'ドラゴン', '天地雷鳴士': '天地雷鳴士', '魔人': '魔人',
+  '時渡りの剣士': '時渡りの剣士', '魔弾の剣士': '魔弾の剣士',
+  '戦士': '戦士', '僧侶': '僧侶', '武闘家': '武闘家', '魔法使い': '魔法使い', '盗賊': '盗賊', '遊び人': '遊び人', '踊り子': '踊り子',
+};
+// 「編成したこころの効果まとめ」「3パターン比較」の項目の並び順：
+// 斬撃ダメージ→体技ダメージ→各属性ダメージ→各属性耐性→それ以外、の順にする。
+const HEART_ELEMENT_ORDER = ['メラ', 'ギラ', 'イオ', 'ヒャド', 'デイン', 'ドルマ', 'バギ', 'ジバリア'];
+function heartEffectPriority(label) {
+  if (label.includes('斬撃ダメージ')) return 1;
+  if (label.includes('体技ダメージ')) return 2;
+  if (label.includes('属性ダメージ')) return 3;
+  if (label.includes('属性耐性')) return 4;
+  return 5;
+}
+function heartEffectElementIndex(label) {
+  const index = HEART_ELEMENT_ORDER.findIndex(element => label.includes(element));
+  return index === -1 ? HEART_ELEMENT_ORDER.length : index;
+}
+// 色分けは属性ごとではなく、斬撃ダメージ／体技ダメージ／属性耐性の3種類だけ
+// （色数が多いとかえって見づらいため、まとめて3色にする）。
+const HEART_EFFECT_CATEGORY_COLORS = { 1: '#2a78d6', 2: '#eb6834', 4: '#1baf7a' };
+const HEART_EFFECT_CATEGORY_NAMES = { 1: '斬撃ダメージ', 2: '体技ダメージ', 4: '属性耐性' };
+function heartEffectDotHtml(label) {
+  const color = HEART_EFFECT_CATEGORY_COLORS[heartEffectPriority(label)];
+  if (!color) return '';
+  return `<span class="effect-dot" style="background:${color}" title="${escapeHtml(HEART_EFFECT_CATEGORY_NAMES[heartEffectPriority(label)])}"></span>`;
+}
+function compareHeartEffectLabels(a, b) {
+  const priorityDiff = heartEffectPriority(a) - heartEffectPriority(b);
+  if (priorityDiff !== 0) return priorityDiff;
+  if (heartEffectPriority(a) === 3 || heartEffectPriority(a) === 4) {
+    return heartEffectElementIndex(a) - heartEffectElementIndex(b);
+  }
+  return 0;
+}
+const HEART_EFFECT_PATTERN = /(?:【([^】]+)】)?([^\d\-+%【】]+?)([+\-]\d+)(%)?/g;
+const HEART_SKILL_TRIGGER_PATTERN = /(ターン開始時|戦闘開始時|戦闘中|攻撃時|ダメージを受けた時|会心の一撃|行動開始時|毎ターン)[^【]*?する/g;
+function parseHeartSkillTexts(detail) {
+  if (!detail) return [];
+  const lastSlash = detail.lastIndexOf(' / ');
+  const text = lastSlash >= 0 ? detail.slice(0, lastSlash) : detail;
+  const matches = [];
+  let match;
+  HEART_SKILL_TRIGGER_PATTERN.lastIndex = 0;
+  while ((match = HEART_SKILL_TRIGGER_PATTERN.exec(text))) matches.push(match[0]);
+  return matches;
+}
+// GameWithの効果テキスト先頭によく付く「入手経路・イベント名」の飾り文字。
+// これを取り除いた後に残る文字列が「番兵のスクルト」のような、こころが
+// 直接付与するスキル・呪文名になる。
+const HEART_FLAVOR_TAG_PATTERNS = [
+  /こころの?覚醒で入手/g,
+  /覚醒千里行[^編]*編/g,
+  /\d+章\d*話(\(ボス\)|のボス)?(〜\d+章?\d*話?(EP話)?)?/g,
+  /ドラクエ\d+(＆\d+)?(イベント)?/g,
+  /[^\s、。！？【】]{2,14}イベント\d*/g,
+  /[^\s、。！？【】]{2,14}コラボ(第?\d*弾?)?/g,
+  /【[^】]*編】/g,
+  /周年記念イベント/g,
+  /前夜祭\d*/g,
+  /新春ウォーク\d*/g,
+  /賀正\d*/g,
+  /[^\s【】]*vol\.\d+/gi,
+  /[^\s【】]*～[^\s【】]*～/g,
+  /まぼろしのSPメガモン/g,
+  /ほこら/g,
+  /ReWALK/g,
+  /イベント(?=[一-龠ぁ-んァ-ヶー])/g,
+  /宝の地図/g,
+  /特盛一丁！/g,
+  /まほうのカギと竜の秘宝/g,
+  /メゾン・ド・[^こ【]*/g,
+  // 地域限定・出現条件・DQMなどの注記
+  /※[^\s、。]*?限定(\(上位\)|\(下位\))?/g,
+  /※[^\s、。]*?のみ出現/g,
+  /※地域限定/g,
+  /DQM/g,
+  // 期間限定イベント・コラボの個別タイトル（気づいたものを都度ここに追加していく）
+  /、?試練の扉/g,
+  /、?あくま大王襲来/g,
+  /メガモンスター討伐/g,
+  /ご当地メガモンスター/g,
+  /おかしな集いと封印されし悪魔/g,
+  /伝説のおせちを求めて/g,
+  /海賊アロン航海記/g,
+  /炎の山、巣食う竜たち/g,
+  /襲来！豪氷の四天王/g,
+  /凍てついた王国と炎熱の兄妹/g,
+  /影なる守護者ニンジャ見参！/g,
+  /災厄の目覚め/g,
+  /ガラスのくつを目指して/g,
+  /ジパング外伝/g,
+  /スライムカーニバル/g,
+  /スライム冒険譚/g,
+  /南の島とあぶない果実/g,
+  /導かれしパティシエたちin甘味楼/gi,
+  /歪められた真実とラーのかがみ/g,
+  /砂漠といにしえの神殿/g,
+  /黄金列島！時空を超える竜のかがやき/g,
+  /あぶない夏の異世界旅行/g,
+  /ふるさと発見！オニ斬り道中記/g,
+  /よみがえれ天の箱舟/g,
+  /バッファロン＆モヒカントの/g,
+  /失われしふっかつのじゅもん/g,
+  /小さな島の大きな魔鳥/g,
+  /小さな翼たち/g,
+  /神官クリフト外伝/g,
+  /素敵なダンス/g,
+  /賢者と受け継がれしさとりのしょ/g,
+  /幻のツチノコバイパーを探せ！/g,
+  /カジノ勝負師の/g,
+  /ゲルダ＆ヤンガス\s?大盗賊の宝島/g,
+  /サマーフェスティバル/g,
+  /スペシャルウォークDAY/g,
+  /スラミチチャンピオンシップ/g,
+  /タナトスハント改/g,
+  /ヒュプノスハント改/g,
+  /バトルマスターと不死の騎兵/g,
+  /文明堂コラボカステラ一番/g,
+  /カステラ一番/g,
+  /秋の行楽/g,
+  /超ルーキーフェスティバル/g,
+  /闇の雷と破邪の光/g,
+  /魔法戦士の光と影/g,
+  /魔界の香水【銀影】/g,
+  /お花見ウォークキャンペーン/g,
+  /ひなまつりパニック/g,
+  /梅雨キャンペーン/g,
+  /晴れの日にフィールド出現/g,
+  /雨の日にフィールド出現/g,
+];
+function parseHeartGrantedSkillText(detail) {
+  if (!detail) return '';
+  const lastSlash = detail.lastIndexOf(' / ');
+  let text = lastSlash >= 0 ? detail.slice(0, lastSlash) : detail;
+  HEART_FLAVOR_TAG_PATTERNS.forEach(pattern => { text = text.replace(pattern, ''); });
+  let costIndex = -1;
+  ['こころ最大コスト', 'こころの最大コスト'].forEach(marker => {
+    const found = text.indexOf(marker);
+    if (found >= 0 && (costIndex === -1 || found < costIndex)) costIndex = found;
+  });
+  if (costIndex <= 0) return '';
+  const leading = text.slice(0, costIndex).trim().replace(/^[、・]+/, '').trim();
+  if (!leading || leading.length > 25 || /[\d+\-%]/.test(leading)) return '';
+  if (!/[ぁ-んァ-ヶ一-龠]/.test(leading)) return '';
+  return leading;
+}
+// GameWithの元テキストでは、1つのこころが2つ以上のスキル・呪文を覚える場合でも
+// 区切り文字なしでくっついて書かれていることがある（例：「ベホイミザオ」）。
+// そのままだと1つの変な名前として扱われ、どちらのタブにも出てこなくなってしまうため、
+// 気づいたものをここに追加して、正しく分割する。
+const HEART_SKILL_MULTI_OVERRIDES = {
+  'レックスとラグアス': ['ベホイミ', 'ザオ'],
+};
+function heartGrantedSkillNames(item) {
+  if (HEART_SKILL_MULTI_OVERRIDES[item.name]) return HEART_SKILL_MULTI_OVERRIDES[item.name];
+  const name = parseHeartGrantedSkillText(item.detail);
+  return name ? [name] : [];
+}
+// 「斬撃・体技ダメージ」のように2種類がまとめて書かれているラベルを、
+// 「斬撃ダメージ」「体技ダメージ」に分けて、それぞれの合計にちゃんと足せるようにする。
+function expandCombinedLabel(label) {
+  const match = label.match(/^([^・]+)・([^・]+?)(ダメージ|会心率|会心ダメージ|被ダメージ軽減|防御力|状態異常耐性|回復量)$/);
+  if (!match) return [label];
+  const [, first, second, suffix] = match;
+  // 「スキルの斬撃・体技ダメージ」「イオ属性斬撃・体技ダメージ」のように、
+  // 「斬撃」の前に付く前置き（スキルの／イオ属性など）は、後半（体技側）にも
+  // 同じものを付ける（前置きを付けないと「体技ダメージ」という別項目になってしまい、
+  // 本来同じ効果のはずが合計・項目数がずれてしまうため）。
+  const prefixMatch = first.match(/^(.*)斬撃$/);
+  if (prefixMatch && second === '体技') {
+    const prefix = prefixMatch[1];
+    return [`${prefix}斬撃${suffix}`, `${prefix}体技${suffix}`];
+  }
+  return [`${first}${suffix}`, `${second}${suffix}`];
+}
+// 「◯◯のこころ(S)装備時△△」のように、別のこころも一緒に装備している時だけ
+// 発動するペアボーナスを検出する。マッチした場合は、その別のこころの名前と、
+// 中身の効果ラベル（△△の部分）を取り出す。
+const HEART_PARTNER_PATTERN = /^(.+?)のこころS?装備時(.+)$/;
+function canonicalEffectLabel(label) {
+  const trimmed = label.trim();
+  if (trimmed.endsWith('こころの最大コスト') || trimmed.endsWith('こころ最大コスト')) return 'こころ最大コスト';
+  return trimmed;
+}
+function parseHeartEffects(detail) {
+  if (!detail) return [];
+  const lastSlash = detail.lastIndexOf(' / ');
+  const text = lastSlash >= 0 ? detail.slice(0, lastSlash) : detail;
+  const effects = [];
+  let match;
+  HEART_EFFECT_PATTERN.lastIndex = 0;
+  while ((match = HEART_EFFECT_PATTERN.exec(text))) {
+    const [, cond, rawLabel, signedNum, pct] = match;
+    let label = rawLabel.trim();
+    let heartPartner = null;
+    const partnerMatch = label.match(HEART_PARTNER_PATTERN);
+    if (partnerMatch) {
+      heartPartner = partnerMatch[1].trim();
+      label = partnerMatch[2].trim();
+    }
+    expandCombinedLabel(canonicalEffectLabel(label)).forEach(expandedLabel => {
+      effects.push({ cond: cond || null, heartPartner, label: expandedLabel, value: parseInt(signedNum, 10), pct: !!pct });
+    });
+  }
+  return effects;
+}
+function summarizeEquippedHearts(equipped, jobName) {
+  const totals = new Map();
+  const otherConditional = [];
+  const heartPairConditional = [];
+  const equippedNames = new Set(equipped.map(({ heart }) => heart.name));
+  equipped.forEach(({ heart }) => {
+    parseHeartEffects(heart.detail).forEach(effect => {
+      if (effect.heartPartner) {
+        if (equippedNames.has(effect.heartPartner)) {
+          // ペア相手も装備されているので、通常どおり合計に加える。
+        } else {
+          heartPairConditional.push({ heart, effect });
+          return;
+        }
+      }
+      if (effect.cond) {
+        const matchedJob = JOB_ABBREV_MAP[effect.cond];
+        if (matchedJob && matchedJob !== jobName) return;
+        if (!matchedJob) {
+          otherConditional.push({ heart, effect });
+          return;
+        }
+      }
+      const key = effect.label + (effect.pct ? '%' : '');
+      const current = totals.get(key) || { label: effect.label, pct: effect.pct, value: 0 };
+      current.value += effect.value;
+      totals.set(key, current);
+    });
+  });
+  return { totals: Array.from(totals.values()), otherConditional, heartPairConditional };
+}
+function slotAcceptsColor(slotLabel, heartColors) {
+  if (slotLabel === '虹') return true;
+  if (!Array.isArray(heartColors)) return false;
+  const accepted = slotLabel.split('・');
+  return heartColors.some(color => accepted.includes(color));
+}
+function heartColorRank(heart) {
+  const colors = Array.isArray(heart.color) ? heart.color : [];
+  const index = colors.map(color => HEART_COLORS_ORDER.indexOf(color)).filter(value => value >= 0).sort((a, b) => a - b)[0];
+  return index === undefined ? HEART_COLORS_ORDER.length : index;
+}
+function sortHearts(hearts, pattern) {
+  const dir = pattern.sortDir === 'desc' ? -1 : 1;
+  return hearts.slice().sort((left, right) => {
+    let result;
+    if (pattern.sort === 'cost') result = (left.cost ?? 0) - (right.cost ?? 0) || left.name.localeCompare(right.name, 'ja');
+    else if (pattern.sort === 'color') result = heartColorRank(left) - heartColorRank(right) || left.name.localeCompare(right.name, 'ja');
+    else result = left.name.localeCompare(right.name, 'ja');
+    return result * dir;
+  });
+}
+function simSlotDetailHtml(heart) {
+  const parts = [`<div class="sim-slot-cost">コスト：${heart.cost ?? '-'}</div>`];
+  if (heart.detail) {
+    parts.push(`<div class="sim-slot-detail"><p>${escapeHtml(hideRating(heart.detail))}</p></div>`);
+  }
+  if (heart.long_detail) {
+    parts.push(`<div class="sim-slot-detail long"><strong>くわしい特徴</strong><p>${escapeHtml(heart.long_detail)}</p></div>`);
+  }
+  return parts.join('');
+}
+function heartBuildSummaryText(build) {
+  const heartsById = {};
+  state.data.items.forEach(item => { if (item.type === 'heart') heartsById[item.id] = item; });
+  const names = Object.values(build.selections).map(id => heartsById[id] && heartsById[id].name).filter(Boolean);
+  return names.length ? names.join('、') : '（こころ未選択）';
+}
+function saveCurrentPatternAsBuild(patternIndex) {
+  const pattern = state.simPatterns[patternIndex];
+  if (!state.simJobName || !Object.keys(pattern.selections).length) {
+    alert('職業とこころを選んでから保存してください。');
+    return;
+  }
+  if (state.savedHeartBuilds.length >= MAX_SAVED_HEART_BUILDS) {
+    alert(`保存できるのは${MAX_SAVED_HEART_BUILDS}件までです。不要なものを削除してから保存してください。`);
+    return;
+  }
+  const defaultName = `${state.simJobName}の編成${state.savedHeartBuilds.length + 1}`;
+  const name = prompt('この編成の名前を付けてください。', defaultName);
+  if (name === null) return;
+  state.savedHeartBuilds.push({
+    id: `build-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    name: name.trim() || defaultName,
+    jobName: state.simJobName,
+    selections: { ...pattern.selections },
+  });
+  persistSavedHeartBuilds();
+  render();
+}
+function copySavedHeartBuild(buildId) {
+  const build = state.savedHeartBuilds.find(item => item.id === buildId);
+  if (!build) return;
+  if (state.savedHeartBuilds.length >= MAX_SAVED_HEART_BUILDS) {
+    alert(`保存できるのは${MAX_SAVED_HEART_BUILDS}件までです。不要なものを削除してからコピーしてください。`);
+    return;
+  }
+  state.savedHeartBuilds.push({
+    id: `build-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+    name: `${build.name}のコピー`,
+    jobName: build.jobName,
+    selections: { ...build.selections },
+  });
+  persistSavedHeartBuilds();
+  render();
+}
+function deleteSavedHeartBuild(buildId) {
+  const build = state.savedHeartBuilds.find(item => item.id === buildId);
+  if (!build) return;
+  if (!confirm(`「${build.name}」を削除しますか？`)) return;
+  state.savedHeartBuilds = state.savedHeartBuilds.filter(item => item.id !== buildId);
+  persistSavedHeartBuilds();
+  render();
+}
+function loadSavedHeartBuild(buildId, patternIndex) {
+  const build = state.savedHeartBuilds.find(item => item.id === buildId);
+  if (!build) return;
+  if (state.simJobName !== build.jobName) {
+    state.simJobName = build.jobName;
+    // 職業が変わるとこころ枠の内容が変わるため、いったん全パターンの選択をリセットしてから読み込む。
+    state.simPatterns.forEach(p => { p.selections = {}; });
+  }
+  state.simPatterns[patternIndex].selections = { ...build.selections };
+  render();
+}
+function savedBuildsHtml() {
+  const rows = state.savedHeartBuilds.map(build => `<div class="saved-build-row">
+    <span class="saved-build-name">${escapeHtml(build.name)}</span>
+    <div class="saved-build-actions">
+      <span class="saved-build-meta">${escapeHtml(build.jobName)}</span>
+      <button data-load-build="${escapeHtml(build.id)}" data-load-pattern="0">①へ読込</button>
+      <button data-load-build="${escapeHtml(build.id)}" data-load-pattern="1">②へ読込</button>
+      <button data-load-build="${escapeHtml(build.id)}" data-load-pattern="2">③へ読込</button>
+      <button data-copy-build="${escapeHtml(build.id)}">コピー</button>
+      <button data-delete-build="${escapeHtml(build.id)}">削除</button>
+    </div>
+    <span class="saved-build-meta">${escapeHtml(heartBuildSummaryText(build))}</span>
+  </div>`).join('');
+  return `<div class="saved-builds"><strong>保存した編成（${state.savedHeartBuilds.length}/${MAX_SAVED_HEART_BUILDS}件）</strong>${rows || '<p class="sim-empty">まだ保存した編成がありません。各パターンの「💾 この編成を保存」から追加できます。</p>'}</div>`;
+}
+// 「アークデーモン」と「アークデーモン(覚醒)」のように、(覚醒)の有無だけが違う
+// こころは、ゲーム内でも同時に装備できないため、同じモンスターとして扱う。
+function heartBaseName(name) {
+  return name.replace(/\(覚醒\)\s*$/, '').trim();
+}
+function ownedHeartsForSlot(slotLabel, pattern, currentSlotIndex, heartsById) {
+  const selectedElsewhereBaseNames = new Set(
+    Object.entries(pattern.selections)
+      .filter(([slotIndex]) => slotIndex !== String(currentSlotIndex))
+      .map(([, heartId]) => heartsById[heartId])
+      .filter(Boolean)
+      .map(heart => heartBaseName(heart.name))
+  );
+  const hearts = state.data.items.filter(item => item.type === 'heart' && isOwned(item) && (pattern.ignoreColor || slotAcceptsColor(slotLabel, item.color)) && !selectedElsewhereBaseNames.has(heartBaseName(item.name)));
+  return sortHearts(hearts, pattern);
+}
+function renderSimPattern(patternIndex) {
+  const pattern = state.simPatterns[patternIndex];
+  const sortOptions = [['name', '名前順'], ['cost', 'コスト順'], ['color', '色ごと']]
+    .map(([value, label]) => `<option value="${value}" ${pattern.sort === value ? 'selected' : ''}>${label}</option>`).join('');
+  const sortDirOptions = [['asc', '昇順'], ['desc', '降順']]
+    .map(([value, label]) => `<option value="${value}" ${pattern.sortDir === value ? 'selected' : ''}>${label}</option>`).join('');
+  const header = `<div class="sim-job-select">`
+    + `<label for="simSortSelect-${patternIndex}">こころの並び順：</label><select id="simSortSelect-${patternIndex}">${sortOptions}</select>`
+    + `<select id="simSortDirSelect-${patternIndex}">${sortDirOptions}</select>`
+    + `<label for="simSearchInput-${patternIndex}">キーワード検索：</label><input id="simSearchInput-${patternIndex}" type="search" placeholder="名前や効果で検索" value="${escapeHtml(pattern.search)}">`
+    + `<label class="sim-ignore-color"><input type="checkbox" id="simIgnoreColor-${patternIndex}" ${pattern.ignoreColor ? 'checked' : ''}> 色を無視して全てのこころから選ぶ</label></div>`;
+
+  if (!state.simJobName) {
+    return { html: header + '<p class="sim-empty">職業を選ぶと、こころ枠が表示されます。</p>', totalCost: 0, equipped: [] };
+  }
+  const job = state.jobs.find(candidate => candidate.name === state.simJobName);
+  if (!job || !Array.isArray(job.heart_slots) || !job.heart_slots.length) {
+    return { html: header + '<p class="sim-empty">この職業のこころ枠データがありません。</p>', totalCost: 0, equipped: [] };
+  }
+  const heartsById = {};
+  state.data.items.forEach(item => { if (item.type === 'heart') heartsById[item.id] = item; });
+  let totalCost = 0;
+  const equipped = [];
+  const slotsHtml = job.heart_slots.map((slot, index) => {
+    const options = ownedHeartsForSlot(slot, pattern, index, heartsById);
+    const selectedId = pattern.selections[index] || '';
+    const selectedHeart = selectedId ? heartsById[selectedId] : null;
+    if (selectedHeart) {
+      if (typeof selectedHeart.cost === 'number') totalCost += selectedHeart.cost;
+      equipped.push({ slot, index, heart: selectedHeart });
+    }
+    const icon = state.heartColorIcons[slot];
+    const searchKeyword = pattern.search.trim().toLowerCase();
+    const optionsHtml = options.map(heart => {
+      const color = heartOptionColor(heart);
+      const isMatch = searchKeyword && `${heart.name} ${heart.detail || ''}`.toLowerCase().includes(searchKeyword);
+      const styles = [color ? `color:${color};` : '', isMatch ? 'font-weight:700;' : ''].filter(Boolean).join(' ');
+      return `<option value="${escapeHtml(heart.id)}" ${selectedId === heart.id ? 'selected' : ''}${styles ? ` style="${styles}"` : ''}>${isMatch ? '★ ' : ''}${escapeHtml(heart.name)}${typeof heart.cost === 'number' ? `（コスト${heart.cost}）` : ''}</option>`;
+    }).join('');
+    const selectedImage = selectedHeart && selectedHeart.image_path ? `<img class="sim-slot-heart-image" src="${escapeHtml(selectedHeart.image_path)}" alt="${escapeHtml(selectedHeart.name)}">` : '';
+    return `<div class="sim-slot"><div class="sim-slot-label">${icon ? `<img class="heart-slot-icon" src="${escapeHtml(icon)}" alt="${escapeHtml(slot)}">` : escapeHtml(slot)}<span>枠${index + 1}（${escapeHtml(slot)}）</span></div>${selectedImage}<select data-pattern-index="${patternIndex}" data-slot-index="${index}"><option value="">未選択</option>${optionsHtml}</select>${selectedHeart ? simSlotDetailHtml(selectedHeart) : options.length ? '' : '<div class="sim-slot-cost">所持しているこの色のこころがありません。</div>'}</div>`;
+  }).join('');
+  let summaryHtml;
+  let totals = [];
+  if (!equipped.length) {
+    summaryHtml = '<p class="sim-empty">まだこころが選ばれていません。</p>';
+  } else {
+    const summarized = summarizeEquippedHearts(equipped, state.simJobName);
+    totals = summarized.totals;
+    const otherConditional = summarized.otherConditional;
+    const heartPairConditional = summarized.heartPairConditional;
+    const totalsHtml = totals.length
+      ? `<ul class="sim-summary-list">${totals.slice().sort((left, right) => compareHeartEffectLabels(left.label, right.label)).map(item => `<li>${heartEffectDotHtml(item.label)}<span class="trait-name">${escapeHtml(item.label)}</span>${item.value > 0 ? '+' : ''}${item.value}${item.pct ? '%' : ''}</li>`).join('')}</ul>`
+      : '<p class="sim-empty">合計できる数値効果が見つかりませんでした。</p>';
+    const conditionalHtml = otherConditional.length
+      ? `<div class="sim-summary-conditional"><strong>天候・地域などの条件つき効果（今の職業選択とは関係なく、条件を満たした時だけ有効）</strong><ul class="sim-summary-list">${otherConditional.map(({ heart, effect }) => `<li><span class="trait-name">${escapeHtml(heart.name)}【${escapeHtml(effect.cond)}】</span>${escapeHtml(effect.label)}${effect.value > 0 ? '+' : ''}${effect.value}${effect.pct ? '%' : ''}</li>`).join('')}</ul></div>`
+      : '';
+    const skillRows = equipped.flatMap(({ heart }) => {
+      const rows = parseHeartSkillTexts(heart.detail).map(text => ({ heart, text }));
+      const granted = parseHeartGrantedSkillText(heart.detail);
+      if (granted) rows.push({ heart, text: `付与スキル・呪文：${granted}` });
+      return rows;
+    });
+    const skillHtml = skillRows.length
+      ? `<div class="sim-summary-conditional"><strong>こころで習得・発動するスキル・特殊効果</strong><ul class="sim-summary-list">${skillRows.map(({ heart, text }) => `<li><span class="trait-name">${escapeHtml(heart.name)}</span>${escapeHtml(text)}</li>`).join('')}</ul></div>`
+      : '';
+    const heartPairHtml = heartPairConditional.length
+      ? `<div class="sim-summary-conditional"><strong>他のこころを一緒に装備した時だけ発動する効果（今の組み合わせでは条件を満たしていません）</strong><ul class="sim-summary-list">${heartPairConditional.map(({ heart, effect }) => `<li><span class="trait-name">${escapeHtml(heart.name)}【${escapeHtml(effect.heartPartner)}と同時装備】</span>${escapeHtml(effect.label)}${effect.value > 0 ? '+' : ''}${effect.value}${effect.pct ? '%' : ''}</li>`).join('')}</ul></div>`
+      : '';
+    summaryHtml = totalsHtml + skillHtml + conditionalHtml + heartPairHtml;
+  }
+
+  const html = `${header}<div class="sim-total">合計コスト：<strong>${totalCost}</strong></div><div class="sim-slots">${slotsHtml}</div><div class="sim-summary"><strong>編成したこころの効果まとめ</strong>${summaryHtml}</div>`;
+  return { html, totalCost, equipped, totals };
+}
+function simComparisonHtml(results) {
+  if (!state.simJobName) return '';
+  const labelRow = results.map((result, index) => `<th>パターン${index + 1}</th>`).join('');
+  const costRow = results.map(result => `<td>${result.totalCost}</td>`).join('');
+  const allLabels = Array.from(new Set(results.flatMap(result => result.totals.map(item => item.label + (item.pct ? '%' : '')))))
+    .sort((left, right) => compareHeartEffectLabels(left, right));
+  const effectRows = allLabels.map(key => {
+    const cells = results.map(result => {
+      const item = result.totals.find(candidate => (candidate.label + (candidate.pct ? '%' : '')) === key);
+      if (!item) return '<td>-</td>';
+      return `<td>${item.value > 0 ? '+' : ''}${item.value}${item.pct ? '%' : ''}</td>`;
+    }).join('');
+    const displayLabel = key.replace(/%$/, '');
+    return `<tr><th>${heartEffectDotHtml(displayLabel)}${escapeHtml(displayLabel)}</th>${cells}</tr>`;
+  }).join('');
+  return `<div class="sim-compare"><strong>3パターン比較</strong><div class="sim-compare-scroll"><table class="sim-compare-table"><thead><tr><th>項目</th>${labelRow}</tr></thead><tbody><tr><th>合計コスト</th>${costRow}</tr>${effectRows}</tbody></table></div></div>`;
+}
+function renderSim() {
+  const panel = $('#simPanel');
+  const focusedId = document.activeElement && document.activeElement.id;
+  const searchMatch = focusedId && focusedId.match(/^simSearchInput-(\d)$/);
+  const focusedPatternIndex = searchMatch ? Number(searchMatch[1]) : null;
+  const searchCursor = focusedPatternIndex !== null ? document.activeElement.selectionStart : null;
+
+  const jobOptions = JOB_CATEGORIES_ORDER.map(category => {
+    const jobsInCategory = state.jobs.filter(job => job.category === category);
+    if (!jobsInCategory.length) return '';
+    return `<optgroup label="${escapeHtml(category)}">${jobsInCategory.map(job => `<option value="${escapeHtml(job.name)}" ${state.simJobName === job.name ? 'selected' : ''}>${escapeHtml(job.name)}</option>`).join('')}</optgroup>`;
+  }).join('');
+  const jobHeader = `<div class="sim-job-select-shared"><label for="simJobSelectShared">職業を選ぶ（3パターン共通）：</label><select id="simJobSelectShared"><option value="">選択してください</option>${jobOptions}</select></div>`;
+
+  const results = state.simPatterns.map((pattern, index) => renderSimPattern(index));
+  const blocksHtml = results.map((result, index) => `<div class="sim-pattern"><div class="sim-pattern-title-row"><h3 class="sim-pattern-title">パターン${index + 1}</h3><button data-save-pattern="${index}">💾 この編成を保存</button></div>${result.html}</div>`).join('');
+  panel.innerHTML = `${jobHeader}<div class="sim-patterns">${blocksHtml}</div>${simComparisonHtml(results)}${savedBuildsHtml()}`;
+
+  $('#simJobSelectShared').addEventListener('change', event => {
+    state.simJobName = event.target.value;
+    state.simPatterns.forEach(pattern => { pattern.selections = {}; });
+    render();
+  });
+  state.simPatterns.forEach((pattern, index) => {
+    $(`#simSortSelect-${index}`).addEventListener('change', event => { pattern.sort = event.target.value; render(); });
+    $(`#simSortDirSelect-${index}`).addEventListener('change', event => { pattern.sortDir = event.target.value; render(); });
+    $(`#simIgnoreColor-${index}`).addEventListener('change', event => { pattern.ignoreColor = event.target.checked; render(); });
+    const searchInput = $(`#simSearchInput-${index}`);
+    searchInput.addEventListener('compositionstart', () => { simSearchComposing[index] = true; });
+    searchInput.addEventListener('compositionend', event => {
+      simSearchComposing[index] = false;
+      pattern.search = event.target.value;
+      clearTimeout(simSearchDebounceTimers[index]);
+      simSearchDebounceTimers[index] = setTimeout(render, 300);
+    });
+    searchInput.addEventListener('input', event => {
+      pattern.search = event.target.value;
+      if (simSearchComposing[index]) return;
+      clearTimeout(simSearchDebounceTimers[index]);
+      simSearchDebounceTimers[index] = setTimeout(render, 300);
+    });
+  });
+  if (focusedPatternIndex !== null) {
+    const input = $(`#simSearchInput-${focusedPatternIndex}`);
+    if (input) {
+      input.focus();
+      input.setSelectionRange(searchCursor, searchCursor);
+    }
+  }
+  panel.querySelectorAll('[data-slot-index]').forEach(select => select.addEventListener('change', event => {
+    const patternIndex = Number(event.target.dataset.patternIndex);
+    const slotIndex = event.target.dataset.slotIndex;
+    const pattern = state.simPatterns[patternIndex];
+    if (event.target.value) pattern.selections[slotIndex] = event.target.value;
+    else delete pattern.selections[slotIndex];
+    // パターン1（1番目）でこころを選ぶと、まだ何も選んでいないパターン2・3の同じ枠にも自動でコピーする。
+    // パターン2・3側で個別に選び直した枠は、以後そちらの選択を優先し上書きしない。
+    if (patternIndex === 0) {
+      [1, 2].forEach(otherIndex => {
+        const otherPattern = state.simPatterns[otherIndex];
+        if (!otherPattern.selections[slotIndex]) {
+          if (event.target.value) otherPattern.selections[slotIndex] = event.target.value;
+        }
+      });
+    }
+    render();
+  }));
+  panel.querySelectorAll('[data-save-pattern]').forEach(btn => btn.addEventListener('click', () => {
+    saveCurrentPatternAsBuild(Number(btn.dataset.savePattern));
+  }));
+  panel.querySelectorAll('[data-load-build]').forEach(btn => btn.addEventListener('click', () => {
+    loadSavedHeartBuild(btn.dataset.loadBuild, Number(btn.dataset.loadPattern));
+  }));
+  panel.querySelectorAll('[data-copy-build]').forEach(btn => btn.addEventListener('click', () => {
+    copySavedHeartBuild(btn.dataset.copyBuild);
+  }));
+  panel.querySelectorAll('[data-delete-build]').forEach(btn => btn.addEventListener('click', () => {
+    deleteSavedHeartBuild(btn.dataset.deleteBuild);
+  }));
+}
+function render() {
+  renderSubTabs();
+  const isJobTab = state.type === 'job';
+  const isSimTab = state.type === 'sim';
+  $('.summary').style.display = (isJobTab || isSimTab) ? 'none' : '';
+  $('#allOwned').style.display = (isJobTab || isSimTab) ? 'none' : '';
+  $('#allUnowned').style.display = (isJobTab || isSimTab) ? 'none' : '';
+  $('#search').closest('.toolbar').style.display = isSimTab ? 'none' : '';
+  $('#grid').style.display = isSimTab ? 'none' : '';
+  $('#simPanel').hidden = !isSimTab;
+  if (isSimTab) { renderSim(); return; }
+  if (isJobTab) { renderJobs(); return; }
+  const items = visibleItems();
+  $('#grid').innerHTML = items.length ? items.map(item => `<article class="item ${isOwned(item) ? 'owned' : ''}">${itemImage(item)}<h2>${escapeHtml(item.name)}</h2><p>${escapeHtml(hideRating(item.detail))}</p>${outboundLinkHtml(item)}${recommendationHtml(item)}<button class="detail-btn" data-detail-id="${item.id}">🔍 くわしく見る</button>${ownershipControlHtml(item)}</article>`).join('') : '<p class="empty">該当する項目がありません。</p>';
+  $('#ownedCount').textContent = state.data.items.filter(isOwned).length;
+  $('#totalCount').textContent = state.data.items.length;
+  $('#updatedAt').textContent = state.data.updated_at;
+  document.querySelectorAll('[data-id]').forEach(box => box.addEventListener('change', event => { state.owned[event.target.dataset.id] = event.target.checked; localStorage.setItem('dqwalk-owned', JSON.stringify(state.owned)); render(); }));
+  document.querySelectorAll('[data-count-id]').forEach(radio => radio.addEventListener('change', event => { state.heartCount[event.target.dataset.countId] = parseInt(event.target.value, 10); localStorage.setItem('dqwalk-heart-count', JSON.stringify(state.heartCount)); render(); }));
+  document.querySelectorAll('[data-count-clear]').forEach(btn => btn.addEventListener('click', () => { delete state.heartCount[btn.dataset.countClear]; localStorage.setItem('dqwalk-heart-count', JSON.stringify(state.heartCount)); render(); }));
+  document.querySelectorAll('[data-detail-id]').forEach(btn => btn.addEventListener('click', () => openDetail(btn.dataset.detailId)));
+}
+$('#modalClose').addEventListener('click', closeDetail);
+$('#modalOverlay').addEventListener('click', event => { if (event.target === $('#modalOverlay')) closeDetail(); });
+document.addEventListener('keydown', event => { if (event.key === 'Escape') closeDetail(); });
+function escapeHtml(value) { return value.replace(/[&<>'"]/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char])); }
+$('#search').addEventListener('input', render);
+document.querySelectorAll('#mainTabs .tab').forEach(tab => tab.addEventListener('click', () => { document.querySelectorAll('#mainTabs .tab').forEach(x => x.classList.remove('active')); tab.classList.add('active'); state.type = tab.dataset.type; state.subFilter = 'all'; state.heartKeitoFilter = 'all'; state.heartSkillFilter = 'all'; render(); }));
+$('#allOwned').addEventListener('click', () => {
+  visibleItems().forEach(item => {
+    if (item.type === 'heart') { if (!state.heartCount[item.id]) state.heartCount[item.id] = 1; }
+    else { state.owned[item.id] = true; }
+  });
+  localStorage.setItem('dqwalk-owned', JSON.stringify(state.owned));
+  localStorage.setItem('dqwalk-heart-count', JSON.stringify(state.heartCount));
+  render();
+});
+$('#allUnowned').addEventListener('click', () => {
+  visibleItems().forEach(item => {
+    if (item.type === 'heart') { delete state.heartCount[item.id]; }
+    else { delete state.owned[item.id]; }
+  });
+  localStorage.setItem('dqwalk-owned', JSON.stringify(state.owned));
+  localStorage.setItem('dqwalk-heart-count', JSON.stringify(state.heartCount));
+  render();
+});
+$('#export').addEventListener('click', () => { const backup = { owned: state.owned, heartCount: state.heartCount }; const blob = new Blob([JSON.stringify(backup, null, 2)], {type:'application/json'}); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = 'dqwalk-owned-backup.json'; link.click(); URL.revokeObjectURL(link.href); });
+$('#import').addEventListener('click', () => $('#file').click());
+$('#file').addEventListener('change', event => {
+  const file = event.target.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = () => {
+    try {
+      const parsed = JSON.parse(reader.result);
+      if (parsed && typeof parsed === 'object' && ('owned' in parsed || 'heartCount' in parsed)) {
+        state.owned = parsed.owned || {};
+        state.heartCount = parsed.heartCount || {};
+      } else {
+        state.owned = parsed || {};
+      }
+      localStorage.setItem('dqwalk-owned', JSON.stringify(state.owned));
+      localStorage.setItem('dqwalk-heart-count', JSON.stringify(state.heartCount));
+      render();
+    } catch { alert('バックアップファイルを読み込めませんでした。'); }
+  };
+  reader.readAsText(file);
+});
+fetch('data.json').then(response => response.json()).then(data => { state.data = data; render(); }).catch(() => { $('#grid').innerHTML = '<p class="empty">data.jsonを読み込めません。作品フォルダを簡易サーバーで開いてください。</p>'; });
+fetch('jobs.json').then(response => response.json()).then(data => { state.jobs = data.jobs || []; state.heartColorIcons = data.heart_color_icons || {}; if (state.type === 'job' || state.type === 'sim') render(); }).catch(() => {});
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  document.querySelectorAll('.theme-btn').forEach(btn => btn.classList.toggle('active', btn.dataset.theme === theme));
+  localStorage.setItem('dqwalk-theme', theme);
+}
+document.querySelectorAll('.theme-btn').forEach(btn => btn.addEventListener('click', () => applyTheme(btn.dataset.theme)));
+applyTheme(localStorage.getItem('dqwalk-theme') || 'default');
+
+// アクセスカウンター（外部の無料カウンターサービス「visitor-badge」を利用）
+// サイトを開くたびに画像として数字を取りに行くだけで、個人情報などは送信しない。
+// 「今日」の分は日付ごとに違うキーを使うことで、日が変わると自動的に0からカウントし直す。
+(function () {
+  const COUNTER_NAMESPACE = 'dqwalk-mochichecker';
+  const today = new Date().toISOString().slice(0, 10); // 例: 2026-09-24
+  const badgeUrl = (key) => `https://visitor-badge.laobi.icu/badge?page_id=${COUNTER_NAMESPACE}.${key}&left_text=${encodeURIComponent(key === 'total' ? '累計' : '本日')}`;
+  const todayBadge = document.getElementById('visitTodayBadge');
+  const totalBadge = document.getElementById('visitTotalBadge');
+  if (todayBadge) todayBadge.src = badgeUrl('day-' + today);
+  if (totalBadge) totalBadge.src = badgeUrl('total');
+})();
+</script>
+</body></html>

@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+dqwalk-owned-backup*.json
+index_served_check.html
