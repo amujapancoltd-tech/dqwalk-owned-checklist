@@ -163,7 +163,8 @@ button:hover { border-color:var(--accent); color:var(--accent); }
 .saved-build-actions button { font-size:12px; padding:6px 9px; }
 .empty { color:var(--muted); padding:30px 0; }
 footer { margin-top:38px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; line-height:1.7; }
-.visit-counter { margin-top:8px; display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+.visit-counter { margin:10px 0 4px; display:flex; gap:6px; align-items:center; flex-wrap:wrap; }
+.visit-counter-label { font-size:12px; color:var(--muted); }
 .visit-counter img { height:20px; }
 @media (max-width:720px) { main { padding:30px 15px 52px; } .grid { grid-template-columns:repeat(2,1fr); } }
 @media (max-width:480px) { .grid { grid-template-columns:1fr; } }
@@ -260,6 +261,7 @@ footer { margin-top:38px; padding-top:18px; border-top:1px solid var(--line); co
 <span class="eyebrow">DRAGON QUEST WALK / PERSONAL TRACKER</span>
 <h1>所持チェック</h1>
 <p class="lead">武器とこころを検索して、持っているものに印を付けられます。チェック内容はこのブラウザに保存されます。</p>
+<div class="visit-counter"><span class="visit-counter-label">本日</span><img id="visitTodayBadge" alt="本日のアクセス"><span class="visit-counter-label">累計</span><img id="visitTotalBadge" alt="累計のアクセス"></div>
 <div class="toolbar"><input id="search" type="search" placeholder="名前や特徴で検索"><button id="allOwned">表示中を全て所持</button><button id="allUnowned">表示中を全て未所持</button><button id="export">バックアップ</button><button id="import">復元</button><input id="file" type="file" accept="application/json" hidden></div>
 <div class="summary"><div class="stat"><strong id="ownedCount">0</strong> 所持</div><div class="stat"><strong id="totalCount">0</strong> 全体</div><div class="stat">更新日：<strong id="updatedAt">-</strong></div></div>
 <div class="tabs" id="mainTabs"><button class="tab active" data-type="all">すべて</button><button class="tab" data-type="weapon">武器</button><button class="tab" data-type="armor">防具</button><button class="tab" data-type="heart">こころ</button><button class="tab" data-type="job">職業</button><button class="tab" data-type="sim">こころ編成</button><button class="tab" data-type="unowned">未所持だけ</button></div>
@@ -282,7 +284,7 @@ footer { margin-top:38px; padding-top:18px; border-top:1px solid var(--line); co
     <a id="modalLink" class="modal-link" href="#" target="_blank" rel="noopener">元ページで画像・詳細を見る</a>
   </div>
 </div>
-<footer>本サイトは、株式会社スクウェア・エニックスとは関係のない、個人が運営する非公式のファンサイトです。「ドラゴンクエスト」「ドラゴンクエストウォーク」等の名称・商標は株式会社スクウェア・エニックスに帰属します。<br>参考情報：<a href="https://gamewith.jp/dq-walk/" target="_blank" rel="noopener">GameWith（ドラクエウォーク）</a><br>この画面のチェック情報は外部サイトへ送信せず、このブラウザ内に保存します。表示データはGameWithの一覧を取得して更新できます。<br>アクセス数のカウントには、外部の無料カウンターサービス（visitor-badge）を利用しています。<div class="visit-counter"><img id="visitTodayBadge" alt="本日のアクセス"><img id="visitTotalBadge" alt="累計のアクセス"></div></footer>
+<footer>本サイトは、株式会社スクウェア・エニックスとは関係のない、個人が運営する非公式のファンサイトです。「ドラゴンクエスト」「ドラゴンクエストウォーク」等の名称・商標は株式会社スクウェア・エニックスに帰属します。<br>参考情報：<a href="https://gamewith.jp/dq-walk/" target="_blank" rel="noopener">GameWith（ドラクエウォーク）</a><br>この画面のチェック情報は外部サイトへ送信せず、このブラウザ内に保存します。表示データはGameWithの一覧を取得して更新できます。<br>アクセス数のカウントには、外部の無料カウンターサービス（visitor-badge）を利用しています。</footer>
 </main>
 </div>
 <script>
@@ -1216,7 +1218,9 @@ applyTheme(localStorage.getItem('dqwalk-theme') || 'default');
 (function () {
   const COUNTER_NAMESPACE = 'dqwalk-mochichecker';
   const today = new Date().toISOString().slice(0, 10); // 例: 2026-09-24
-  const badgeUrl = (key) => `https://visitor-badge.laobi.icu/badge?page_id=${COUNTER_NAMESPACE}.${key}&left_text=${encodeURIComponent(key === 'total' ? '累計' : '本日')}`;
+  // 「本日」「累計」の文字は自前のHTML側で表示するので、画像には数字だけを出す。
+  // （日本語の文字を画像側に入れると、幅の計算が合わず文字が詰まって表示されるため）
+  const badgeUrl = (key) => `https://visitor-badge.laobi.icu/badge?page_id=${COUNTER_NAMESPACE}.${key}&left_text=%20`;
   const todayBadge = document.getElementById('visitTodayBadge');
   const totalBadge = document.getElementById('visitTotalBadge');
   if (todayBadge) todayBadge.src = badgeUrl('day-' + today);
