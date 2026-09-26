@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="「ドラゴンクエストウォーク」の武器・こころの所持状況をチェックできる、個人運営の非公式ツールです。名前や特徴で検索・絞り込みができ、所持状況はブラウザ内に保存されます。無料・登録不要。">
 <title>ドラクエウォーク 所持チェック</title>
 <style>
 :root { --ink:#28242a; --muted:#7a7079; --line:#e7dfe1; --paper:#fffaf6; --card:#ffffff; --accent:#a34258; --gold:#c18a32; --owned-bg:#fff4e0; --owned-border:#dcb86d; --owned-text:#9b6b16; }
@@ -261,6 +262,7 @@ footer { margin-top:38px; padding-top:18px; border-top:1px solid var(--line); co
 <span class="eyebrow">DRAGON QUEST WALK / PERSONAL TRACKER</span>
 <h1>所持チェック</h1>
 <p class="lead">武器とこころを検索して、持っているものに印を付けられます。チェック内容はこのブラウザに保存されます。</p>
+<p class="lead">各こころにチェックを付けて「こころ編成」で職業を選ぶと、4つの枠に所持しているこころが反映されます。3パターンまで同時に比較でき、気に入った編成は保存しておくこともできます。</p>
 <div class="visit-counter"><span class="visit-counter-label">本日</span><img id="visitTodayBadge" alt="本日のアクセス"><span class="visit-counter-label">累計</span><img id="visitTotalBadge" alt="累計のアクセス"></div>
 <div class="toolbar"><input id="search" type="search" placeholder="名前や特徴で検索"><button id="allOwned">表示中を全て所持</button><button id="allUnowned">表示中を全て未所持</button><button id="export">バックアップ</button><button id="import">復元</button><input id="file" type="file" accept="application/json" hidden></div>
 <div class="summary"><div class="stat"><strong id="ownedCount">0</strong> 所持</div><div class="stat"><strong id="totalCount">0</strong> 全体</div><div class="stat">更新日：<strong id="updatedAt">-</strong></div></div>
