@@ -15255,6 +15255,9 @@
       "image_path": "images/hearts/heart-0303.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -15268,6 +15271,9 @@
       "image_path": "images/hearts/heart-0304.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -15281,6 +15287,9 @@
       "image_path": "images/hearts/heart-0305.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -15294,6 +15303,9 @@
       "image_path": "images/hearts/heart-0306.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15307,6 +15319,9 @@
       "image_path": "images/hearts/heart-0307.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15320,6 +15335,9 @@
       "image_path": "images/hearts/heart-0308.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15333,6 +15351,9 @@
       "image_path": "images/hearts/heart-0309.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15346,6 +15367,9 @@
       "image_path": "images/hearts/heart-0310.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15359,6 +15383,9 @@
       "image_path": "images/hearts/heart-0311.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15372,6 +15399,9 @@
       "image_path": "images/hearts/heart-0312.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15385,6 +15415,9 @@
       "image_path": "images/hearts/heart-0313.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -15398,6 +15431,9 @@
       "image_path": "images/hearts/heart-0314.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -15411,6 +15447,9 @@
       "image_path": "images/hearts/heart-0315.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -15424,6 +15463,9 @@
       "image_path": "images/hearts/heart-0316.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15437,6 +15479,9 @@
       "image_path": "images/hearts/heart-0317.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -15450,6 +15495,9 @@
       "image_path": "images/hearts/heart-0318.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15463,6 +15511,9 @@
       "image_path": "images/hearts/heart-0319.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -15476,6 +15527,9 @@
       "image_path": "images/hearts/heart-0320.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -15489,6 +15543,9 @@
       "image_path": "images/hearts/heart-0321.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15502,6 +15559,9 @@
       "image_path": "images/hearts/heart-0020.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -15515,6 +15575,9 @@
       "image_path": "images/hearts/heart-0021.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15528,6 +15591,9 @@
       "image_path": "images/hearts/heart-0322.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -15541,6 +15607,9 @@
       "image_path": "images/hearts/heart-0323.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -15554,6 +15623,9 @@
       "image_path": "images/hearts/heart-0324.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -15567,6 +15639,9 @@
       "image_path": "images/hearts/heart-0325.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -15580,6 +15655,9 @@
       "image_path": "images/hearts/heart-0326.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15593,6 +15671,9 @@
       "image_path": "images/hearts/heart-0327.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15606,6 +15687,9 @@
       "image_path": "images/hearts/heart-0328.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -15619,6 +15703,9 @@
       "image_path": "images/hearts/heart-0329.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15632,6 +15719,9 @@
       "image_path": "images/hearts/heart-0330.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15645,6 +15735,9 @@
       "image_path": "images/hearts/heart-0331.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15658,6 +15751,9 @@
       "image_path": "images/hearts/heart-0332.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -15671,6 +15767,9 @@
       "image_path": "images/hearts/heart-0333.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15684,6 +15783,9 @@
       "image_path": "images/hearts/heart-0334.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -15697,6 +15799,9 @@
       "image_path": "images/hearts/heart-0335.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15710,6 +15815,9 @@
       "image_path": "images/hearts/heart-0336.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15723,6 +15831,9 @@
       "image_path": "images/hearts/heart-0337.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15736,6 +15847,9 @@
       "image_path": "images/hearts/heart-0338.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15749,6 +15863,9 @@
       "image_path": "images/hearts/heart-0339.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15762,6 +15879,9 @@
       "image_path": "images/hearts/heart-0340.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15775,6 +15895,9 @@
       "image_path": "images/hearts/heart-0341.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15788,6 +15911,9 @@
       "image_path": "images/hearts/heart-0342.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15801,6 +15927,9 @@
       "image_path": "images/hearts/heart-0343.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -15814,6 +15943,9 @@
       "image_path": "images/hearts/heart-0344.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -15827,6 +15959,9 @@
       "image_path": "images/hearts/heart-0345.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15840,6 +15975,9 @@
       "image_path": "images/hearts/heart-0346.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15853,6 +15991,9 @@
       "image_path": "images/hearts/heart-0347.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -15866,6 +16007,9 @@
       "image_path": "images/hearts/heart-0348.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -15879,6 +16023,9 @@
       "image_path": "images/hearts/heart-0349.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -15892,6 +16039,9 @@
       "image_path": "images/hearts/heart-0350.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -15905,6 +16055,9 @@
       "image_path": "images/hearts/heart-0351.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -15918,6 +16071,9 @@
       "image_path": "images/hearts/heart-0352.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15931,6 +16087,9 @@
       "image_path": "images/hearts/heart-0353.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -15944,6 +16103,9 @@
       "image_path": "images/hearts/heart-0354.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15957,6 +16119,9 @@
       "image_path": "images/hearts/heart-0355.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -15970,6 +16135,9 @@
       "image_path": "images/hearts/heart-0356.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -15983,6 +16151,9 @@
       "image_path": "images/hearts/heart-0357.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -15996,6 +16167,9 @@
       "image_path": "images/hearts/heart-0358.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -16009,6 +16183,9 @@
       "image_path": "images/hearts/heart-0359.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16022,6 +16199,9 @@
       "image_path": "images/hearts/heart-0360.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -16035,6 +16215,9 @@
       "image_path": "images/hearts/heart-0361.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16048,6 +16231,9 @@
       "image_path": "images/hearts/heart-0362.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16061,6 +16247,9 @@
       "image_path": "images/hearts/heart-0363.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16074,6 +16263,9 @@
       "image_path": "images/hearts/heart-0364.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16087,6 +16279,9 @@
       "image_path": "images/hearts/heart-0365.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16100,6 +16295,9 @@
       "image_path": "images/hearts/heart-0366.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16113,6 +16311,9 @@
       "image_path": "images/hearts/heart-0367.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16126,6 +16327,9 @@
       "image_path": "images/hearts/heart-0368.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16139,6 +16343,9 @@
       "image_path": "images/hearts/heart-0369.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16152,6 +16359,9 @@
       "image_path": "images/hearts/heart-0370.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -16165,6 +16375,9 @@
       "image_path": "images/hearts/heart-0371.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16178,6 +16391,9 @@
       "image_path": "images/hearts/heart-0372.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16191,6 +16407,9 @@
       "image_path": "images/hearts/heart-0373.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16204,6 +16423,9 @@
       "image_path": "images/hearts/heart-0374.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -16217,6 +16439,9 @@
       "image_path": "images/hearts/heart-0375.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -16230,6 +16455,9 @@
       "image_path": "images/hearts/heart-0376.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -16243,6 +16471,9 @@
       "image_path": "images/hearts/heart-0377.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -16256,6 +16487,9 @@
       "image_path": "images/hearts/heart-0378.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -16269,6 +16503,9 @@
       "image_path": "images/hearts/heart-0379.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16282,6 +16519,9 @@
       "image_path": "images/hearts/heart-0380.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -16295,6 +16535,9 @@
       "image_path": "images/hearts/heart-0381.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16308,6 +16551,9 @@
       "image_path": "images/hearts/heart-0382.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16321,6 +16567,9 @@
       "image_path": "images/hearts/heart-0383.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -16334,6 +16583,9 @@
       "image_path": "images/hearts/heart-0384.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -16347,6 +16599,9 @@
       "image_path": "images/hearts/heart-0385.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -16360,6 +16615,9 @@
       "image_path": "images/hearts/heart-0386.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16373,6 +16631,9 @@
       "image_path": "images/hearts/heart-0387.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16386,6 +16647,9 @@
       "image_path": "images/hearts/heart-0388.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16399,6 +16663,9 @@
       "image_path": "images/hearts/heart-0389.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16412,6 +16679,9 @@
       "image_path": "images/hearts/heart-0390.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16425,6 +16695,9 @@
       "image_path": "images/hearts/heart-0391.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -16438,6 +16711,9 @@
       "image_path": "images/hearts/heart-0392.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16451,6 +16727,9 @@
       "image_path": "images/hearts/heart-0393.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16464,6 +16743,9 @@
       "image_path": "images/hearts/heart-0394.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16477,6 +16759,9 @@
       "image_path": "images/hearts/heart-0395.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16490,6 +16775,9 @@
       "image_path": "images/hearts/heart-0396.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16503,6 +16791,9 @@
       "image_path": "images/hearts/heart-0397.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16516,6 +16807,9 @@
       "image_path": "images/hearts/heart-0398.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -16529,6 +16823,9 @@
       "image_path": "images/hearts/heart-0399.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -16542,6 +16839,9 @@
       "image_path": "images/hearts/heart-0400.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -16555,6 +16855,9 @@
       "image_path": "images/hearts/heart-0401.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -16568,6 +16871,9 @@
       "image_path": "images/hearts/heart-0402.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16581,6 +16887,9 @@
       "image_path": "images/hearts/heart-0403.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -16594,6 +16903,9 @@
       "image_path": "images/hearts/heart-0404.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16607,6 +16919,9 @@
       "image_path": "images/hearts/heart-0405.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -16620,6 +16935,9 @@
       "image_path": "images/hearts/heart-0406.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16633,6 +16951,9 @@
       "image_path": "images/hearts/heart-0407.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16646,6 +16967,9 @@
       "image_path": "images/hearts/heart-0408.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16659,6 +16983,9 @@
       "image_path": "images/hearts/heart-0409.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16672,6 +16999,9 @@
       "image_path": "images/hearts/heart-0410.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16685,6 +17015,9 @@
       "image_path": "images/hearts/heart-0411.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16698,6 +17031,9 @@
       "image_path": "images/hearts/heart-0412.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -16711,6 +17047,9 @@
       "image_path": "images/hearts/heart-0413.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -16724,6 +17063,9 @@
       "image_path": "images/hearts/heart-0414.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16737,6 +17079,9 @@
       "image_path": "images/hearts/heart-0415.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -16750,6 +17095,9 @@
       "image_path": "images/hearts/heart-0416.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16763,6 +17111,9 @@
       "image_path": "images/hearts/heart-0417.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16776,6 +17127,9 @@
       "image_path": "images/hearts/heart-0418.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -16789,6 +17143,9 @@
       "image_path": "images/hearts/heart-0419.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -16802,6 +17159,9 @@
       "image_path": "images/hearts/heart-0420.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16815,6 +17175,9 @@
       "image_path": "images/hearts/heart-0421.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16828,6 +17191,9 @@
       "image_path": "images/hearts/heart-0422.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16841,6 +17207,9 @@
       "image_path": "images/hearts/heart-0423.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -16854,6 +17223,9 @@
       "image_path": "images/hearts/heart-0424.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -16867,6 +17239,9 @@
       "image_path": "images/hearts/heart-0425.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -16880,6 +17255,9 @@
       "image_path": "images/hearts/heart-0426.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -16893,6 +17271,9 @@
       "image_path": "images/hearts/heart-0427.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16906,6 +17287,9 @@
       "image_path": "images/hearts/heart-0428.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16919,6 +17303,9 @@
       "image_path": "images/hearts/heart-0429.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -16932,6 +17319,9 @@
       "image_path": "images/hearts/heart-0430.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16945,6 +17335,9 @@
       "image_path": "images/hearts/heart-0431.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16958,6 +17351,9 @@
       "image_path": "images/hearts/heart-0432.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16971,6 +17367,9 @@
       "image_path": "images/hearts/heart-0433.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -16984,6 +17383,9 @@
       "image_path": "images/hearts/heart-0434.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -16997,6 +17399,9 @@
       "image_path": "images/hearts/heart-0435.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17010,6 +17415,9 @@
       "image_path": "images/hearts/heart-0436.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17023,6 +17431,9 @@
       "image_path": "images/hearts/heart-0437.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -17036,6 +17447,9 @@
       "image_path": "images/hearts/heart-0438.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -17049,6 +17463,9 @@
       "image_path": "images/hearts/heart-0439.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -17062,6 +17479,9 @@
       "image_path": "images/hearts/heart-0440.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17075,6 +17495,9 @@
       "image_path": "images/hearts/heart-0441.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17088,6 +17511,9 @@
       "image_path": "images/hearts/heart-0442.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17101,6 +17527,9 @@
       "image_path": "images/hearts/heart-0443.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17114,6 +17543,9 @@
       "image_path": "images/hearts/heart-0444.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17127,6 +17559,9 @@
       "image_path": "images/hearts/heart-0445.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17140,6 +17575,9 @@
       "image_path": "images/hearts/heart-0446.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17153,6 +17591,9 @@
       "image_path": "images/hearts/heart-0447.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17166,6 +17607,9 @@
       "image_path": "images/hearts/heart-0448.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -17179,6 +17623,9 @@
       "image_path": "images/hearts/heart-0449.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17192,6 +17639,9 @@
       "image_path": "images/hearts/heart-0450.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17205,6 +17655,9 @@
       "image_path": "images/hearts/heart-0451.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17218,6 +17671,9 @@
       "image_path": "images/hearts/heart-0452.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -17231,6 +17687,9 @@
       "image_path": "images/hearts/heart-0453.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17244,6 +17703,9 @@
       "image_path": "images/hearts/heart-0454.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17257,6 +17719,9 @@
       "image_path": "images/hearts/heart-0455.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17270,6 +17735,9 @@
       "image_path": "images/hearts/heart-0456.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17283,6 +17751,9 @@
       "image_path": "images/hearts/heart-0457.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -17296,6 +17767,9 @@
       "image_path": "images/hearts/heart-0458.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17309,6 +17783,9 @@
       "image_path": "images/hearts/heart-0459.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -17322,6 +17799,9 @@
       "image_path": "images/hearts/heart-0460.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -17335,6 +17815,9 @@
       "image_path": "images/hearts/heart-0461.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -17348,6 +17831,9 @@
       "image_path": "images/hearts/heart-0462.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17361,6 +17847,9 @@
       "image_path": "images/hearts/heart-0463.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -17374,6 +17863,9 @@
       "image_path": "images/hearts/heart-0464.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -17387,6 +17879,9 @@
       "image_path": "images/hearts/heart-0465.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -17400,6 +17895,9 @@
       "image_path": "images/hearts/heart-0466.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17413,6 +17911,9 @@
       "image_path": "images/hearts/heart-0467.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -17426,6 +17927,9 @@
       "image_path": "images/hearts/heart-0468.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17439,6 +17943,9 @@
       "image_path": "images/hearts/heart-0469.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17452,6 +17959,9 @@
       "image_path": "images/hearts/heart-0470.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17465,6 +17975,9 @@
       "image_path": "images/hearts/heart-0471.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17478,6 +17991,9 @@
       "image_path": "images/hearts/heart-0472.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17491,6 +18007,9 @@
       "image_path": "images/hearts/heart-0473.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17504,6 +18023,9 @@
       "image_path": "images/hearts/heart-0474.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17517,6 +18039,9 @@
       "image_path": "images/hearts/heart-0475.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17530,6 +18055,9 @@
       "image_path": "images/hearts/heart-0476.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17543,6 +18071,9 @@
       "image_path": "images/hearts/heart-0477.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17556,6 +18087,9 @@
       "image_path": "images/hearts/heart-0478.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -17569,6 +18103,9 @@
       "image_path": "images/hearts/heart-0479.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -17582,6 +18119,9 @@
       "image_path": "images/hearts/heart-0480.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17595,6 +18135,9 @@
       "image_path": "images/hearts/heart-0481.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -17608,6 +18151,9 @@
       "image_path": "images/hearts/heart-0482.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17621,6 +18167,9 @@
       "image_path": "images/hearts/heart-0483.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -17634,6 +18183,9 @@
       "image_path": "images/hearts/heart-0484.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -17647,6 +18199,9 @@
       "image_path": "images/hearts/heart-0485.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -17660,6 +18215,9 @@
       "image_path": "images/hearts/heart-0486.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17673,6 +18231,9 @@
       "image_path": "images/hearts/heart-0487.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -17686,6 +18247,9 @@
       "image_path": "images/hearts/heart-0488.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -17699,6 +18263,9 @@
       "image_path": "images/hearts/heart-0489.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -17712,6 +18279,9 @@
       "image_path": "images/hearts/heart-0490.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -17725,6 +18295,9 @@
       "image_path": "images/hearts/heart-0491.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -17738,6 +18311,9 @@
       "image_path": "images/hearts/heart-0492.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -17751,6 +18327,9 @@
       "image_path": "images/hearts/heart-0493.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -17764,6 +18343,9 @@
       "image_path": "images/hearts/heart-0494.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17777,6 +18359,9 @@
       "image_path": "images/hearts/heart-0495.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -17790,6 +18375,9 @@
       "image_path": "images/hearts/heart-0496.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -17803,6 +18391,9 @@
       "image_path": "images/hearts/heart-0497.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17816,6 +18407,9 @@
       "image_path": "images/hearts/heart-0498.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17829,6 +18423,9 @@
       "image_path": "images/hearts/heart-0499.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17842,6 +18439,9 @@
       "image_path": "images/hearts/heart-0500.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17855,6 +18455,9 @@
       "image_path": "images/hearts/heart-0501.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -17868,6 +18471,9 @@
       "image_path": "images/hearts/heart-0502.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -17881,6 +18487,9 @@
       "image_path": "images/hearts/heart-0503.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17894,6 +18503,9 @@
       "image_path": "images/hearts/heart-0504.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -17907,6 +18519,9 @@
       "image_path": "images/hearts/heart-killer-maginja.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -17920,6 +18535,9 @@
       "image_path": "images/hearts/heart-0506.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17933,6 +18551,9 @@
       "image_path": "images/hearts/heart-0507.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -17946,6 +18567,9 @@
       "image_path": "images/hearts/heart-0508.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -17959,6 +18583,9 @@
       "image_path": "images/hearts/heart-0509.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -17972,6 +18599,9 @@
       "image_path": "images/hearts/heart-0510.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -17985,6 +18615,9 @@
       "image_path": "images/hearts/heart-0511.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -17998,6 +18631,9 @@
       "image_path": "images/hearts/heart-0512.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -18011,6 +18647,9 @@
       "image_path": "images/hearts/heart-0513.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18024,6 +18663,9 @@
       "image_path": "images/hearts/heart-0514.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18037,6 +18679,9 @@
       "image_path": "images/hearts/heart-0515.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18050,6 +18695,9 @@
       "image_path": "images/hearts/heart-0516.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18063,6 +18711,9 @@
       "image_path": "images/hearts/heart-0517.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -18076,6 +18727,9 @@
       "image_path": "images/hearts/heart-0518.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18089,6 +18743,9 @@
       "image_path": "images/hearts/heart-0519.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -18102,6 +18759,9 @@
       "image_path": "images/hearts/heart-0520.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -18115,6 +18775,9 @@
       "image_path": "images/hearts/heart-0521.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -18128,6 +18791,9 @@
       "image_path": "images/hearts/heart-0522.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18141,6 +18807,9 @@
       "image_path": "images/hearts/heart-0523.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -18154,6 +18823,9 @@
       "image_path": "images/hearts/heart-0524.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -18167,6 +18839,9 @@
       "image_path": "images/hearts/heart-0525.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18180,6 +18855,9 @@
       "image_path": "images/hearts/heart-0526.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18193,6 +18871,9 @@
       "image_path": "images/hearts/heart-0527.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -18206,6 +18887,9 @@
       "image_path": "images/hearts/heart-0528.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18219,6 +18903,9 @@
       "image_path": "images/hearts/heart-golden-slime.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -18232,6 +18919,9 @@
       "image_path": "images/hearts/heart-0530.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -18245,6 +18935,9 @@
       "image_path": "images/hearts/heart-0531.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18258,6 +18951,9 @@
       "image_path": "images/hearts/heart-0532.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18271,6 +18967,9 @@
       "image_path": "images/hearts/heart-0533.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -18284,6 +18983,9 @@
       "image_path": "images/hearts/heart-0534.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -18297,6 +18999,9 @@
       "image_path": "images/hearts/heart-0535.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18310,6 +19015,9 @@
       "image_path": "images/hearts/heart-0536.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18323,6 +19031,9 @@
       "image_path": "images/hearts/heart-0537.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18336,6 +19047,9 @@
       "image_path": "images/hearts/heart-0538.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -18349,6 +19063,9 @@
       "image_path": "images/hearts/heart-0539.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -18362,6 +19079,9 @@
       "image_path": "images/hearts/heart-0540.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18375,6 +19095,9 @@
       "image_path": "images/hearts/heart-0541.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18388,6 +19111,9 @@
       "image_path": "images/hearts/heart-0542.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18401,6 +19127,9 @@
       "image_path": "images/hearts/heart-0543.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18414,6 +19143,9 @@
       "image_path": "images/hearts/heart-0544.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18427,6 +19159,9 @@
       "image_path": "images/hearts/heart-0545.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18440,6 +19175,9 @@
       "image_path": "images/hearts/heart-0546.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -18453,6 +19191,9 @@
       "image_path": "images/hearts/heart-0547.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18466,6 +19207,9 @@
       "image_path": "images/hearts/heart-0548.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18479,6 +19223,9 @@
       "image_path": "images/hearts/heart-0549.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18492,6 +19239,9 @@
       "image_path": "images/hearts/heart-0550.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18505,6 +19255,9 @@
       "image_path": "images/hearts/heart-0551.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18518,6 +19271,9 @@
       "image_path": "images/hearts/heart-0552.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -18531,6 +19287,9 @@
       "image_path": "images/hearts/heart-0553.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -18544,6 +19303,9 @@
       "image_path": "images/hearts/heart-0554.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18557,6 +19319,9 @@
       "image_path": "images/hearts/heart-0555.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18570,6 +19335,9 @@
       "image_path": "images/hearts/heart-0556.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -18583,6 +19351,9 @@
       "image_path": "images/hearts/heart-0557.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -18596,6 +19367,9 @@
       "image_path": "images/hearts/heart-0257.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18609,6 +19383,9 @@
       "image_path": "images/hearts/heart-0558.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18622,6 +19399,9 @@
       "image_path": "images/hearts/heart-0559.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -18635,6 +19415,9 @@
       "image_path": "images/hearts/heart-0560.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18648,6 +19431,9 @@
       "image_path": "images/hearts/heart-0561.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18661,6 +19447,9 @@
       "image_path": "images/hearts/heart-0562.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18674,6 +19463,9 @@
       "image_path": "images/hearts/heart-0563.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -18687,6 +19479,9 @@
       "image_path": "images/hearts/heart-0564.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18700,6 +19495,9 @@
       "image_path": "images/hearts/heart-0565.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18713,6 +19511,9 @@
       "image_path": "images/hearts/heart-0566.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -18726,6 +19527,9 @@
       "image_path": "images/hearts/heart-0567.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -18739,6 +19543,9 @@
       "image_path": "images/hearts/heart-0568.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18752,6 +19559,9 @@
       "image_path": "images/hearts/heart-0569.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18765,6 +19575,9 @@
       "image_path": "images/hearts/heart-0570.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -18778,6 +19591,9 @@
       "image_path": "images/hearts/heart-0571.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18791,6 +19607,9 @@
       "image_path": "images/hearts/heart-0572.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -18804,6 +19623,9 @@
       "image_path": "images/hearts/heart-0573.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -18817,6 +19639,9 @@
       "image_path": "images/hearts/heart-0574.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -18830,6 +19655,9 @@
       "image_path": "images/hearts/heart-0575.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -18843,6 +19671,9 @@
       "image_path": "images/hearts/heart-0576.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18856,6 +19687,9 @@
       "image_path": "images/hearts/heart-0577.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18869,6 +19703,9 @@
       "image_path": "images/hearts/heart-0578.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -18882,6 +19719,9 @@
       "image_path": "images/hearts/heart-0579.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -18895,6 +19735,9 @@
       "image_path": "images/hearts/heart-0580.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -18908,6 +19751,9 @@
       "image_path": "images/hearts/heart-0581.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18921,6 +19767,9 @@
       "image_path": "images/hearts/heart-0582.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -18934,6 +19783,9 @@
       "image_path": "images/hearts/heart-0583.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -18947,6 +19799,9 @@
       "image_path": "images/hearts/heart-0584.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -18960,6 +19815,9 @@
       "image_path": "images/hearts/heart-0585.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -18973,6 +19831,9 @@
       "image_path": "images/hearts/heart-0586.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -18986,6 +19847,9 @@
       "image_path": "images/hearts/heart-0587.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -18999,6 +19863,9 @@
       "image_path": "images/hearts/heart-0588.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19012,6 +19879,9 @@
       "image_path": "images/hearts/heart-0589.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19025,6 +19895,9 @@
       "image_path": "images/hearts/heart-0590.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19038,6 +19911,9 @@
       "image_path": "images/hearts/heart-0591.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -19051,6 +19927,9 @@
       "image_path": "images/hearts/heart-blood.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -19064,6 +19943,9 @@
       "image_path": "images/hearts/heart-0593.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -19077,6 +19959,9 @@
       "image_path": "images/hearts/heart-0594.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -19090,6 +19975,9 @@
       "image_path": "images/hearts/heart-0595.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19103,6 +19991,9 @@
       "image_path": "images/hearts/heart-0596.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -19116,6 +20007,9 @@
       "image_path": "images/hearts/heart-0597.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -19129,6 +20023,9 @@
       "image_path": "images/hearts/heart-0598.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -19142,6 +20039,9 @@
       "image_path": "images/hearts/heart-0599.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19155,6 +20055,9 @@
       "image_path": "images/hearts/heart-0600.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -19168,6 +20071,9 @@
       "image_path": "images/hearts/heart-0601.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -19181,6 +20087,9 @@
       "image_path": "images/hearts/heart-0602.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -19194,6 +20103,9 @@
       "image_path": "images/hearts/heart-0603.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -19207,6 +20119,9 @@
       "image_path": "images/hearts/heart-0604.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19220,6 +20135,9 @@
       "image_path": "images/hearts/heart-0605.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19233,6 +20151,9 @@
       "image_path": "images/hearts/heart-0606.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -19246,6 +20167,9 @@
       "image_path": "images/hearts/heart-0607.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -19259,6 +20183,9 @@
       "image_path": "images/hearts/heart-0608.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19272,6 +20199,9 @@
       "image_path": "images/hearts/heart-0609.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -19285,6 +20215,9 @@
       "image_path": "images/hearts/heart-0610.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -19298,6 +20231,9 @@
       "image_path": "images/hearts/heart-0611.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -19311,6 +20247,9 @@
       "image_path": "images/hearts/heart-0612.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -19324,6 +20263,9 @@
       "image_path": "images/hearts/heart-0613.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -19337,6 +20279,9 @@
       "image_path": "images/hearts/heart-0614.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -19350,6 +20295,9 @@
       "image_path": "images/hearts/heart-0615.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -19363,6 +20311,9 @@
       "image_path": "images/hearts/heart-0616.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19376,6 +20327,9 @@
       "image_path": "images/hearts/heart-0617.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -19389,6 +20343,9 @@
       "image_path": "images/hearts/heart-0618.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -19402,6 +20359,9 @@
       "image_path": "images/hearts/heart-0619.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19415,6 +20375,9 @@
       "image_path": "images/hearts/heart-0620.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -19428,6 +20391,9 @@
       "image_path": "images/hearts/heart-0621.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -19441,6 +20407,9 @@
       "image_path": "images/hearts/heart-0622.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -19454,6 +20423,9 @@
       "image_path": "images/hearts/heart-0623.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19467,6 +20439,9 @@
       "image_path": "images/hearts/heart-0624.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -19480,6 +20455,9 @@
       "image_path": "images/hearts/heart-0625.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -19493,6 +20471,9 @@
       "image_path": "images/hearts/heart-0626.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19506,6 +20487,9 @@
       "image_path": "images/hearts/heart-0627.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19519,6 +20503,9 @@
       "image_path": "images/hearts/heart-0628.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19532,6 +20519,9 @@
       "image_path": "images/hearts/heart-0629.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -19545,6 +20535,9 @@
       "image_path": "images/hearts/heart-0630.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -19558,6 +20551,9 @@
       "image_path": "images/hearts/heart-0631.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -19571,6 +20567,9 @@
       "image_path": "images/hearts/heart-0632.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19584,6 +20583,9 @@
       "image_path": "images/hearts/heart-0633.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -19597,6 +20599,9 @@
       "image_path": "images/hearts/heart-0634.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19610,6 +20615,9 @@
       "image_path": "images/hearts/heart-0635.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19623,6 +20631,9 @@
       "image_path": "images/hearts/heart-0636.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -19636,6 +20647,9 @@
       "image_path": "images/hearts/heart-0637.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -19649,6 +20663,9 @@
       "image_path": "images/hearts/heart-0638.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19662,6 +20679,9 @@
       "image_path": "images/hearts/heart-0639.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19675,6 +20695,9 @@
       "image_path": "images/hearts/heart-0640.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19688,6 +20711,9 @@
       "image_path": "images/hearts/heart-0641.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19701,6 +20727,9 @@
       "image_path": "images/hearts/heart-0642.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19714,6 +20743,9 @@
       "image_path": "images/hearts/heart-0643.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -19727,6 +20759,9 @@
       "image_path": "images/hearts/heart-0644.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -19740,6 +20775,9 @@
       "image_path": "images/hearts/heart-0645.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19753,6 +20791,9 @@
       "image_path": "images/hearts/heart-0646.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19766,6 +20807,9 @@
       "image_path": "images/hearts/heart-0647.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19779,6 +20823,9 @@
       "image_path": "images/hearts/heart-0648.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -19792,6 +20839,9 @@
       "image_path": "images/hearts/heart-0649.png",
       "color": [
         "虹"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -19805,6 +20855,9 @@
       "image_path": "images/hearts/heart-0650.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -19818,6 +20871,9 @@
       "image_path": "images/hearts/heart-0651.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19831,6 +20887,9 @@
       "image_path": "images/hearts/heart-0652.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19844,6 +20903,9 @@
       "image_path": "images/hearts/heart-0653.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19857,6 +20919,9 @@
       "image_path": "images/hearts/heart-0654.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -19870,6 +20935,9 @@
       "image_path": "images/hearts/heart-0655.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19883,6 +20951,9 @@
       "image_path": "images/hearts/heart-0656.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -19896,6 +20967,9 @@
       "image_path": "images/hearts/heart-0657.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -19909,6 +20983,9 @@
       "image_path": "images/hearts/heart-0658.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -19922,6 +20999,9 @@
       "image_path": "images/hearts/heart-0659.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19935,6 +21015,9 @@
       "image_path": "images/hearts/heart-0660.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19948,6 +21031,9 @@
       "image_path": "images/hearts/heart-0661.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19961,6 +21047,9 @@
       "image_path": "images/hearts/heart-0662.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -19974,6 +21063,9 @@
       "image_path": "images/hearts/heart-0663.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -19987,6 +21079,9 @@
       "image_path": "images/hearts/heart-0664.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20001,6 +21096,9 @@
       "color": [
         "青",
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20014,6 +21112,9 @@
       "image_path": "images/hearts/heart-0666.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20027,6 +21128,9 @@
       "image_path": "images/hearts/heart-0667.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20040,6 +21144,9 @@
       "image_path": "images/hearts/heart-0668.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20053,6 +21160,9 @@
       "image_path": "images/hearts/heart-0669.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -20066,6 +21176,9 @@
       "image_path": "images/hearts/heart-0670.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20079,6 +21192,9 @@
       "image_path": "images/hearts/heart-0671.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -20092,6 +21208,9 @@
       "image_path": "images/hearts/heart-0672.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -20105,6 +21224,9 @@
       "image_path": "images/hearts/heart-0673.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20118,6 +21240,9 @@
       "image_path": "images/hearts/heart-0674.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20131,6 +21256,9 @@
       "image_path": "images/hearts/heart-0675.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20144,6 +21272,9 @@
       "image_path": "images/hearts/heart-0676.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -20157,6 +21288,9 @@
       "image_path": "images/hearts/heart-0677.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20170,6 +21304,9 @@
       "image_path": "images/hearts/heart-0678.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -20183,6 +21320,9 @@
       "image_path": "images/hearts/heart-0679.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -20196,6 +21336,9 @@
       "image_path": "images/hearts/heart-0680.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -20209,6 +21352,9 @@
       "image_path": "images/hearts/heart-0681.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -20222,6 +21368,9 @@
       "image_path": "images/hearts/heart-0682.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20235,6 +21384,9 @@
       "image_path": "images/hearts/heart-0683.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20248,6 +21400,9 @@
       "image_path": "images/hearts/heart-0684.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20261,6 +21416,9 @@
       "image_path": "images/hearts/heart-0685.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20274,6 +21432,9 @@
       "image_path": "images/hearts/heart-0686.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20287,6 +21448,9 @@
       "image_path": "images/hearts/heart-0687.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -20300,6 +21464,9 @@
       "image_path": "images/hearts/heart-0688.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -20313,6 +21480,9 @@
       "image_path": "images/hearts/heart-0689.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20326,6 +21496,9 @@
       "image_path": "images/hearts/heart-0690.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20339,6 +21512,9 @@
       "image_path": "images/hearts/heart-0691.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20352,6 +21528,9 @@
       "image_path": "images/hearts/heart-0692.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20365,6 +21544,9 @@
       "image_path": "images/hearts/heart-0693.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20378,6 +21560,9 @@
       "image_path": "images/hearts/heart-0694.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20391,6 +21576,9 @@
       "image_path": "images/hearts/heart-0695.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20404,6 +21592,9 @@
       "image_path": "images/hearts/heart-0696.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20417,6 +21608,9 @@
       "image_path": "images/hearts/heart-0697.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20430,6 +21624,9 @@
       "image_path": "images/hearts/heart-0698.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20443,6 +21640,9 @@
       "image_path": "images/hearts/heart-0699.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20456,6 +21656,9 @@
       "image_path": "images/hearts/heart-0700.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20469,6 +21672,9 @@
       "image_path": "images/hearts/heart-0701.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -20482,6 +21688,9 @@
       "image_path": "images/hearts/heart-0702.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -20495,6 +21704,9 @@
       "image_path": "images/hearts/heart-0703.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -20508,6 +21720,9 @@
       "image_path": "images/hearts/heart-0704.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -20521,6 +21736,9 @@
       "image_path": "images/hearts/heart-0705.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20534,6 +21752,9 @@
       "image_path": "images/hearts/heart-0706.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20547,6 +21768,9 @@
       "image_path": "images/hearts/heart-0707.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20560,6 +21784,9 @@
       "image_path": "images/hearts/heart-0708.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -20573,6 +21800,9 @@
       "image_path": "images/hearts/heart-0709.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -20586,6 +21816,9 @@
       "image_path": "images/hearts/heart-0710.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -20599,6 +21832,9 @@
       "image_path": "images/hearts/heart-0711.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20612,6 +21848,9 @@
       "image_path": "images/hearts/heart-0712.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20625,6 +21864,9 @@
       "image_path": "images/hearts/heart-0713.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20638,6 +21880,9 @@
       "image_path": "images/hearts/heart-0714.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -20651,6 +21896,9 @@
       "image_path": "images/hearts/heart-0715.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -20664,6 +21912,9 @@
       "image_path": "images/hearts/heart-0716.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20677,6 +21928,9 @@
       "image_path": "images/hearts/heart-0717.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20690,6 +21944,9 @@
       "image_path": "images/hearts/heart-0718.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -20703,6 +21960,9 @@
       "image_path": "images/hearts/heart-0719.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -20716,6 +21976,9 @@
       "image_path": "images/hearts/heart-0720.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -20729,6 +21992,9 @@
       "image_path": "images/hearts/heart-0721.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -20742,6 +22008,9 @@
       "image_path": "images/hearts/heart-0722.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -20755,6 +22024,9 @@
       "image_path": "images/hearts/heart-0723.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -20768,6 +22040,9 @@
       "image_path": "images/hearts/heart-0724.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -20781,6 +22056,9 @@
       "image_path": "images/hearts/heart-0725.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -20794,6 +22072,9 @@
       "image_path": "images/hearts/heart-0726.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20807,6 +22088,9 @@
       "image_path": "images/hearts/heart-0727.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -20820,6 +22104,9 @@
       "image_path": "images/hearts/heart-0728.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -20833,6 +22120,9 @@
       "image_path": "images/hearts/heart-0729.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -20846,6 +22136,9 @@
       "image_path": "images/hearts/heart-0730.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -20859,6 +22152,9 @@
       "image_path": "images/hearts/heart-0731.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20872,6 +22168,9 @@
       "image_path": "images/hearts/heart-0732.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -20885,6 +22184,9 @@
       "image_path": "images/hearts/heart-0733.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20898,6 +22200,9 @@
       "image_path": "images/hearts/heart-0734.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20911,6 +22216,9 @@
       "image_path": "images/hearts/heart-0735.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -20924,6 +22232,9 @@
       "image_path": "images/hearts/heart-0736.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -20937,6 +22248,9 @@
       "image_path": "images/hearts/heart-0737.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -20950,6 +22264,9 @@
       "image_path": "images/hearts/heart-0738.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -20963,6 +22280,9 @@
       "image_path": "images/hearts/heart-0739.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -20976,6 +22296,9 @@
       "image_path": "images/hearts/heart-0740.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -20989,6 +22312,9 @@
       "image_path": "images/hearts/heart-0741.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21002,6 +22328,9 @@
       "image_path": "images/hearts/heart-0742.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21015,6 +22344,9 @@
       "image_path": "images/hearts/heart-0743.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -21028,6 +22360,9 @@
       "image_path": "images/hearts/heart-0744.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -21041,6 +22376,9 @@
       "image_path": "images/hearts/heart-0745.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21054,6 +22392,9 @@
       "image_path": "images/hearts/heart-0746.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21068,6 +22409,9 @@
       "color": [
         "緑",
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21081,6 +22425,9 @@
       "image_path": "images/hearts/heart-0748.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21094,6 +22441,9 @@
       "image_path": "images/hearts/heart-0749.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21107,6 +22457,9 @@
       "image_path": "images/hearts/heart-0750.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21120,6 +22473,9 @@
       "image_path": "images/hearts/heart-0751.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21133,6 +22489,9 @@
       "image_path": "images/hearts/heart-0752.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21146,6 +22505,9 @@
       "image_path": "images/hearts/heart-0753.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21159,6 +22521,9 @@
       "image_path": "images/hearts/heart-0754.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21172,6 +22537,9 @@
       "image_path": "images/hearts/heart-0755.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21185,6 +22553,9 @@
       "image_path": "images/hearts/heart-0756.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21198,6 +22569,9 @@
       "image_path": "images/hearts/heart-0757.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -21212,6 +22586,9 @@
       "color": [
         "紫",
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21225,6 +22602,9 @@
       "image_path": "images/hearts/heart-0759.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21238,6 +22618,9 @@
       "image_path": "images/hearts/heart-0760.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -21251,6 +22634,9 @@
       "image_path": "images/hearts/heart-0761.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -21264,6 +22650,9 @@
       "image_path": "images/hearts/heart-0762.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21277,6 +22666,9 @@
       "image_path": "images/hearts/heart-0763.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -21290,6 +22682,9 @@
       "image_path": "images/hearts/heart-0764.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21303,6 +22698,9 @@
       "image_path": "images/hearts/heart-0765.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21316,6 +22714,9 @@
       "image_path": "images/hearts/heart-0766.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21329,6 +22730,9 @@
       "image_path": "images/hearts/heart-0767.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -21342,6 +22746,9 @@
       "image_path": "images/hearts/heart-0768.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21355,6 +22762,9 @@
       "image_path": "images/hearts/heart-0769.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21368,6 +22778,9 @@
       "image_path": "images/hearts/heart-0770.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -21381,6 +22794,9 @@
       "image_path": "images/hearts/heart-0771.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -21394,6 +22810,9 @@
       "image_path": "images/hearts/heart-0772.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -21407,6 +22826,9 @@
       "image_path": "images/hearts/heart-0773.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -21420,6 +22842,9 @@
       "image_path": "images/hearts/heart-0774.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21433,6 +22858,9 @@
       "image_path": "images/hearts/heart-0775.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21446,6 +22874,9 @@
       "image_path": "images/hearts/heart-0776.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -21459,6 +22890,9 @@
       "image_path": "images/hearts/heart-0777.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -21472,6 +22906,9 @@
       "image_path": "images/hearts/heart-0778.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -21485,6 +22922,9 @@
       "image_path": "images/hearts/heart-0779.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -21498,6 +22938,9 @@
       "image_path": "images/hearts/heart-0780.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -21511,6 +22954,9 @@
       "image_path": "images/hearts/heart-0781.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -21524,6 +22970,9 @@
       "image_path": "images/hearts/heart-0782.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -21537,6 +22986,9 @@
       "image_path": "images/hearts/heart-0783.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21550,6 +23002,9 @@
       "image_path": "images/hearts/heart-0784.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21563,6 +23018,9 @@
       "image_path": "images/hearts/heart-0785.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -21576,6 +23034,9 @@
       "image_path": "images/hearts/heart-0786.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21589,6 +23050,9 @@
       "image_path": "images/hearts/heart-0787.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -21602,6 +23066,9 @@
       "image_path": "images/hearts/heart-0788.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -21615,6 +23082,9 @@
       "image_path": "images/hearts/heart-0789.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -21628,6 +23098,9 @@
       "image_path": "images/hearts/heart-0790.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -21641,6 +23114,9 @@
       "image_path": "images/hearts/heart-0791.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -21654,6 +23130,9 @@
       "image_path": "images/hearts/heart-0792.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -21667,6 +23146,9 @@
       "image_path": "images/hearts/heart-0793.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21680,6 +23162,9 @@
       "image_path": "images/hearts/heart-0794.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21693,6 +23178,9 @@
       "image_path": "images/hearts/heart-0795.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21706,6 +23194,9 @@
       "image_path": "images/hearts/heart-0796.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21719,6 +23210,9 @@
       "image_path": "images/hearts/heart-0797.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21732,6 +23226,9 @@
       "image_path": "images/hearts/heart-0798.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21745,6 +23242,9 @@
       "image_path": "images/hearts/heart-0799.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21758,6 +23258,9 @@
       "image_path": "images/hearts/heart-0800.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -21771,6 +23274,9 @@
       "image_path": "images/hearts/heart-0801.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -21784,6 +23290,9 @@
       "image_path": "images/hearts/heart-0802.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -21797,6 +23306,9 @@
       "image_path": "images/hearts/heart-0803.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -21810,6 +23322,9 @@
       "image_path": "images/hearts/heart-0804.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21823,6 +23338,9 @@
       "image_path": "images/hearts/heart-0805.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21836,6 +23354,9 @@
       "image_path": "images/hearts/heart-0806.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21849,6 +23370,9 @@
       "image_path": "images/hearts/heart-0807.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -21862,6 +23386,9 @@
       "image_path": "images/hearts/heart-0808.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21875,6 +23402,9 @@
       "image_path": "images/hearts/heart-0809.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21888,6 +23418,9 @@
       "image_path": "images/hearts/heart-0810.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -21901,6 +23434,9 @@
       "image_path": "images/hearts/heart-0811.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21914,6 +23450,9 @@
       "image_path": "images/hearts/heart-0812.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -21927,6 +23466,9 @@
       "image_path": "images/hearts/heart-0813.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -21940,6 +23482,9 @@
       "image_path": "images/hearts/heart-0814.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -21953,6 +23498,9 @@
       "image_path": "images/hearts/heart-0815.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -21966,6 +23514,9 @@
       "image_path": "images/hearts/heart-0816.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -21979,6 +23530,9 @@
       "image_path": "images/hearts/heart-0817.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -21992,6 +23546,9 @@
       "image_path": "images/hearts/heart-0818.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -22005,6 +23562,9 @@
       "image_path": "images/hearts/heart-0819.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -22018,6 +23578,9 @@
       "image_path": "images/hearts/heart-0820.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -22031,6 +23594,9 @@
       "image_path": "images/hearts/heart-0821.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -22044,6 +23610,9 @@
       "image_path": "images/hearts/heart-0822.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -22057,6 +23626,9 @@
       "image_path": "images/hearts/heart-0823.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22070,6 +23642,9 @@
       "image_path": "images/hearts/heart-0824.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -22083,6 +23658,9 @@
       "image_path": "images/hearts/heart-0825.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -22096,6 +23674,9 @@
       "image_path": "images/hearts/heart-0826.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -22109,6 +23690,9 @@
       "image_path": "images/hearts/heart-0827.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -22122,6 +23706,9 @@
       "image_path": "images/hearts/heart-0828.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22135,6 +23722,9 @@
       "image_path": "images/hearts/heart-0829.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22148,6 +23738,9 @@
       "image_path": "images/hearts/heart-0830.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -22161,6 +23754,9 @@
       "image_path": "images/hearts/heart-0831.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22174,6 +23770,9 @@
       "image_path": "images/hearts/heart-0832.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -22187,6 +23786,9 @@
       "image_path": "images/hearts/heart-0833.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -22200,6 +23802,9 @@
       "image_path": "images/hearts/heart-0834.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22213,6 +23818,9 @@
       "image_path": "images/hearts/heart-0835.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -22226,6 +23834,9 @@
       "image_path": "images/hearts/heart-0836.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22239,6 +23850,9 @@
       "image_path": "images/hearts/heart-0837.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22252,6 +23866,9 @@
       "image_path": "images/hearts/heart-0838.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -22265,6 +23882,9 @@
       "image_path": "images/hearts/heart-0839.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22278,6 +23898,9 @@
       "image_path": "images/hearts/heart-0840.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -22291,6 +23914,9 @@
       "image_path": "images/hearts/heart-0841.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22304,6 +23930,9 @@
       "image_path": "images/hearts/heart-0842.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -22317,6 +23946,9 @@
       "image_path": "images/hearts/heart-0843.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -22330,6 +23962,9 @@
       "image_path": "images/hearts/heart-0844.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -22343,6 +23978,9 @@
       "image_path": "images/hearts/heart-0845.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22356,6 +23994,9 @@
       "image_path": "images/hearts/heart-0846.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -22369,6 +24010,9 @@
       "image_path": "images/hearts/heart-0847.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -22382,6 +24026,9 @@
       "image_path": "images/hearts/heart-0848.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22395,6 +24042,9 @@
       "image_path": "images/hearts/heart-0849.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22408,6 +24058,9 @@
       "image_path": "images/hearts/heart-0850.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22421,6 +24074,9 @@
       "image_path": "images/hearts/heart-0851.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22434,6 +24090,9 @@
       "image_path": "images/hearts/heart-0552.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -22447,6 +24106,9 @@
       "image_path": "images/hearts/heart-0852.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22460,6 +24122,9 @@
       "image_path": "images/hearts/heart-0853.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22473,6 +24138,9 @@
       "image_path": "images/hearts/heart-0854.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22486,6 +24154,9 @@
       "image_path": "images/hearts/heart-0855.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22499,6 +24170,9 @@
       "image_path": "images/hearts/heart-0856.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22512,6 +24186,9 @@
       "image_path": "images/hearts/heart-0857.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22525,6 +24202,9 @@
       "image_path": "images/hearts/heart-0858.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22538,6 +24218,9 @@
       "image_path": "images/hearts/heart-0859.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22551,6 +24234,9 @@
       "image_path": "images/hearts/heart-0860.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22564,6 +24250,9 @@
       "image_path": "images/hearts/heart-0861.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22577,6 +24266,9 @@
       "image_path": "images/hearts/heart-0862.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -22590,6 +24282,9 @@
       "image_path": "images/hearts/heart-0863.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -22603,6 +24298,9 @@
       "image_path": "images/hearts/heart-0864.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -22616,6 +24314,9 @@
       "image_path": "images/hearts/heart-0865.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -22629,6 +24330,9 @@
       "image_path": "images/hearts/heart-0866.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22642,6 +24346,9 @@
       "image_path": "images/hearts/heart-0867.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22655,6 +24362,9 @@
       "image_path": "images/hearts/heart-0868.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -22668,6 +24378,9 @@
       "image_path": "images/hearts/heart-0869.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -22681,6 +24394,9 @@
       "image_path": "images/hearts/heart-0870.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -22694,6 +24410,9 @@
       "image_path": "images/hearts/heart-0871.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -22707,6 +24426,9 @@
       "image_path": "images/hearts/heart-0872.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22720,6 +24442,9 @@
       "image_path": "images/hearts/heart-0873.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22733,6 +24458,9 @@
       "image_path": "images/hearts/heart-0874.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -22746,6 +24474,9 @@
       "image_path": "images/hearts/heart-0875.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -22759,6 +24490,9 @@
       "image_path": "images/hearts/heart-0876.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -22772,6 +24506,9 @@
       "image_path": "images/hearts/heart-0877.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -22785,6 +24522,9 @@
       "image_path": "images/hearts/heart-0878.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -22798,6 +24538,9 @@
       "image_path": "images/hearts/heart-0879.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -22811,6 +24554,9 @@
       "image_path": "images/hearts/heart-0880.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22824,6 +24570,9 @@
       "image_path": "images/hearts/heart-0881.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22837,6 +24586,9 @@
       "image_path": "images/hearts/heart-0882.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22850,6 +24602,9 @@
       "image_path": "images/hearts/heart-0883.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22863,6 +24618,9 @@
       "image_path": "images/hearts/heart-0884.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -22876,6 +24634,9 @@
       "image_path": "images/hearts/heart-0885.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -22889,6 +24650,9 @@
       "image_path": "images/hearts/heart-0886.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22902,6 +24666,9 @@
       "image_path": "images/hearts/heart-0887.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -22915,6 +24682,9 @@
       "image_path": "images/hearts/heart-0888.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -22928,6 +24698,9 @@
       "image_path": "images/hearts/heart-0889.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22941,6 +24714,9 @@
       "image_path": "images/hearts/heart-0890.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -22954,6 +24730,9 @@
       "image_path": "images/hearts/heart-0891.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -22967,6 +24746,9 @@
       "image_path": "images/hearts/heart-0892.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -22980,6 +24762,9 @@
       "image_path": "images/hearts/heart-0893.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -22993,6 +24778,9 @@
       "image_path": "images/hearts/heart-0894.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -23006,6 +24794,9 @@
       "image_path": "images/hearts/heart-0895.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23019,6 +24810,9 @@
       "image_path": "images/hearts/heart-0896.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23032,6 +24826,9 @@
       "image_path": "images/hearts/heart-0897.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23045,6 +24842,9 @@
       "image_path": "images/hearts/heart-0898.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -23058,6 +24858,9 @@
       "image_path": "images/hearts/heart-0899.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -23071,6 +24874,9 @@
       "image_path": "images/hearts/heart-0900.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -23084,6 +24890,9 @@
       "image_path": "images/hearts/heart-0901.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23097,6 +24906,9 @@
       "image_path": "images/hearts/heart-0902.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23110,6 +24922,9 @@
       "image_path": "images/hearts/heart-0903.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -23123,6 +24938,9 @@
       "image_path": "images/hearts/heart-0904.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -23136,6 +24954,9 @@
       "image_path": "images/hearts/heart-0905.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -23149,6 +24970,9 @@
       "image_path": "images/hearts/heart-0906.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23162,6 +24986,9 @@
       "image_path": "images/hearts/heart-0907.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -23175,6 +25002,9 @@
       "image_path": "images/hearts/heart-0908.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -23188,6 +25018,9 @@
       "image_path": "images/hearts/heart-0909.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -23201,6 +25034,9 @@
       "image_path": "images/hearts/heart-0910.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23214,6 +25050,9 @@
       "image_path": "images/hearts/heart-0911.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23227,6 +25066,9 @@
       "image_path": "images/hearts/heart-zoma.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23240,6 +25082,9 @@
       "image_path": "images/hearts/heart-0913.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23254,6 +25099,9 @@
       "color": [
         "緑",
         "黄"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23267,6 +25115,9 @@
       "image_path": "images/hearts/heart-baramus.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23280,6 +25131,9 @@
       "image_path": "images/hearts/heart-0916.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23293,6 +25147,9 @@
       "image_path": "images/hearts/heart-0917.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -23306,6 +25163,9 @@
       "image_path": "images/hearts/heart-0918.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -23319,6 +25179,9 @@
       "image_path": "images/hearts/heart-0919.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -23332,6 +25195,9 @@
       "image_path": "images/hearts/heart-0920.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23345,6 +25211,9 @@
       "image_path": "images/hearts/heart-0921.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23358,6 +25227,9 @@
       "image_path": "images/hearts/heart-0922.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23371,6 +25243,9 @@
       "image_path": "images/hearts/heart-0923.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23384,6 +25259,9 @@
       "image_path": "images/hearts/heart-0924.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23397,6 +25275,9 @@
       "image_path": "images/hearts/heart-0925.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -23410,6 +25291,9 @@
       "image_path": "images/hearts/heart-0926.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -23423,6 +25307,9 @@
       "image_path": "images/hearts/heart-0927.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -23436,6 +25323,9 @@
       "image_path": "images/hearts/heart-0928.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -23449,6 +25339,9 @@
       "image_path": "images/hearts/heart-0929.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23462,6 +25355,9 @@
       "image_path": "images/hearts/heart-0930.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23475,6 +25371,9 @@
       "image_path": "images/hearts/heart-0931.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23488,6 +25387,9 @@
       "image_path": "images/hearts/heart-0932.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23501,6 +25403,9 @@
       "image_path": "images/hearts/heart-0933.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23514,6 +25419,9 @@
       "image_path": "images/hearts/heart-0934.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -23527,6 +25435,9 @@
       "image_path": "images/hearts/heart-0935.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -23540,6 +25451,9 @@
       "image_path": "images/hearts/heart-0936.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -23553,6 +25467,9 @@
       "image_path": "images/hearts/heart-0937.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23566,6 +25483,9 @@
       "image_path": "images/hearts/heart-0938.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -23579,6 +25499,9 @@
       "image_path": "images/hearts/heart-0939.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -23592,6 +25515,9 @@
       "image_path": "images/hearts/heart-0940.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -23605,6 +25531,9 @@
       "image_path": "images/hearts/heart-0941.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23618,6 +25547,9 @@
       "image_path": "images/hearts/heart-0942.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23631,6 +25563,9 @@
       "image_path": "images/hearts/heart-0943.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23644,6 +25579,9 @@
       "image_path": "images/hearts/heart-0944.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23657,6 +25595,9 @@
       "image_path": "images/hearts/heart-0945.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23670,6 +25611,9 @@
       "image_path": "images/hearts/heart-0946.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23683,6 +25627,9 @@
       "image_path": "images/hearts/heart-0947.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23696,6 +25643,9 @@
       "image_path": "images/hearts/heart-0948.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -23709,6 +25659,9 @@
       "image_path": "images/hearts/heart-0949.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -23722,6 +25675,9 @@
       "image_path": "images/hearts/heart-0950.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23735,6 +25691,9 @@
       "image_path": "images/hearts/heart-0951.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23748,6 +25707,9 @@
       "image_path": "images/hearts/heart-0952.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -23761,6 +25723,9 @@
       "image_path": "images/hearts/heart-0953.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -23774,6 +25739,9 @@
       "image_path": "images/hearts/heart-0954.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23787,6 +25755,9 @@
       "image_path": "images/hearts/heart-0955.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -23800,6 +25771,9 @@
       "image_path": "images/hearts/heart-0956.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23813,6 +25787,9 @@
       "image_path": "images/hearts/heart-0957.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23826,6 +25803,9 @@
       "image_path": "images/hearts/heart-0958.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23840,6 +25820,9 @@
       "color": [
         "緑",
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23853,6 +25836,9 @@
       "image_path": "images/hearts/heart-0960.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -23866,6 +25852,9 @@
       "image_path": "images/hearts/heart-0961.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23879,6 +25868,9 @@
       "image_path": "images/hearts/heart-0962.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23892,6 +25884,9 @@
       "image_path": "images/hearts/heart-0963.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -23905,6 +25900,9 @@
       "image_path": "images/hearts/heart-0964.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23918,6 +25916,9 @@
       "image_path": "images/hearts/heart-0965.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -23931,6 +25932,9 @@
       "image_path": "images/hearts/heart-0966.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23944,6 +25948,9 @@
       "image_path": "images/hearts/heart-0967.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23957,6 +25964,9 @@
       "image_path": "images/hearts/heart-0968.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23970,6 +25980,9 @@
       "image_path": "images/hearts/heart-0969.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23983,6 +25996,9 @@
       "image_path": "images/hearts/heart-0970.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -23996,6 +26012,9 @@
       "image_path": "images/hearts/heart-0971.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24009,6 +26028,9 @@
       "image_path": "images/hearts/heart-0972.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24022,6 +26044,9 @@
       "image_path": "images/hearts/heart-0973.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24035,6 +26060,9 @@
       "image_path": "images/hearts/heart-0974.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24048,6 +26076,9 @@
       "image_path": "images/hearts/heart-0975.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24061,6 +26092,9 @@
       "image_path": "images/hearts/heart-0976.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24074,6 +26108,9 @@
       "image_path": "images/hearts/heart-0977.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24087,6 +26124,9 @@
       "image_path": "images/hearts/heart-0978.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24100,6 +26140,9 @@
       "image_path": "images/hearts/heart-0979.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -24113,6 +26156,9 @@
       "image_path": "images/hearts/heart-0980.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -24126,6 +26172,9 @@
       "image_path": "images/hearts/heart-0981.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -24139,6 +26188,9 @@
       "image_path": "images/hearts/heart-0982.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24152,6 +26204,9 @@
       "image_path": "images/hearts/heart-0983.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24165,6 +26220,9 @@
       "image_path": "images/hearts/heart-0984.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24178,6 +26236,9 @@
       "image_path": "images/hearts/heart-0985.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24191,6 +26252,9 @@
       "image_path": "images/hearts/heart-0986.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24204,6 +26268,9 @@
       "image_path": "images/hearts/heart-0987.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24217,6 +26284,9 @@
       "image_path": "images/hearts/heart-0988.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -24230,6 +26300,9 @@
       "image_path": "images/hearts/heart-0989.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24243,6 +26316,9 @@
       "image_path": "images/hearts/heart-0990.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -24256,6 +26332,9 @@
       "image_path": "images/hearts/heart-0991.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24269,6 +26348,9 @@
       "image_path": "images/hearts/heart-0992.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24282,6 +26364,9 @@
       "image_path": "images/hearts/heart-0993.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24295,6 +26380,9 @@
       "image_path": "images/hearts/heart-0994.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -24308,6 +26396,9 @@
       "image_path": "images/hearts/heart-0995.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24321,6 +26412,9 @@
       "image_path": "images/hearts/heart-0996.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24334,6 +26428,9 @@
       "image_path": "images/hearts/heart-0997.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -24347,6 +26444,9 @@
       "image_path": "images/hearts/heart-0998.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24360,6 +26460,9 @@
       "image_path": "images/hearts/heart-0999.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -24373,6 +26476,9 @@
       "image_path": "images/hearts/heart-1000.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -24386,6 +26492,9 @@
       "image_path": "images/hearts/heart-1001.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24399,6 +26508,9 @@
       "image_path": "images/hearts/heart-1002.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24412,6 +26524,9 @@
       "image_path": "images/hearts/heart-1003.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24425,6 +26540,9 @@
       "image_path": "images/hearts/heart-1004.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24438,6 +26556,9 @@
       "image_path": "images/hearts/heart-1005.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -24451,6 +26572,9 @@
       "image_path": "images/hearts/heart-1006.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -24464,6 +26588,9 @@
       "image_path": "images/hearts/heart-1007.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24477,6 +26604,9 @@
       "image_path": "images/hearts/heart-1008.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24490,6 +26620,9 @@
       "image_path": "images/hearts/heart-1009.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24503,6 +26636,9 @@
       "image_path": "images/hearts/heart-1010.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -24516,6 +26652,9 @@
       "image_path": "images/hearts/heart-1011.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24529,6 +26668,9 @@
       "image_path": "images/hearts/heart-1012.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -24542,6 +26684,9 @@
       "image_path": "images/hearts/heart-1013.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -24555,6 +26700,9 @@
       "image_path": "images/hearts/heart-1014.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24568,6 +26716,9 @@
       "image_path": "images/hearts/heart-king-slime.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24581,6 +26732,9 @@
       "image_path": "images/hearts/heart-1016.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24594,6 +26748,9 @@
       "image_path": "images/hearts/heart-1017.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -24607,6 +26764,9 @@
       "image_path": "images/hearts/heart-1018.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -24620,6 +26780,9 @@
       "image_path": "images/hearts/heart-1019.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24633,6 +26796,9 @@
       "image_path": "images/hearts/heart-1020.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24646,6 +26812,9 @@
       "image_path": "images/hearts/heart-1021.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -24659,6 +26828,9 @@
       "image_path": "images/hearts/heart-1022.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24672,6 +26844,9 @@
       "image_path": "images/hearts/heart-1023.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24685,6 +26860,9 @@
       "image_path": "images/hearts/heart-1024.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24698,6 +26876,9 @@
       "image_path": "images/hearts/heart-1025.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24711,6 +26892,9 @@
       "image_path": "images/hearts/heart-1026.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24724,6 +26908,9 @@
       "image_path": "images/hearts/heart-1027.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24737,6 +26924,9 @@
       "image_path": "images/hearts/heart-1028.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24750,6 +26940,9 @@
       "image_path": "images/hearts/heart-1029.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24763,6 +26956,9 @@
       "image_path": "images/hearts/heart-1030.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24776,6 +26972,9 @@
       "image_path": "images/hearts/heart-1031.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -24789,6 +26988,9 @@
       "image_path": "images/hearts/heart-1032.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -24802,6 +27004,9 @@
       "image_path": "images/hearts/heart-1033.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24815,6 +27020,9 @@
       "image_path": "images/hearts/heart-1034.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -24828,6 +27036,9 @@
       "image_path": "images/hearts/heart-1035.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24841,6 +27052,9 @@
       "image_path": "images/hearts/heart-1036.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24854,6 +27068,9 @@
       "image_path": "images/hearts/heart-1037.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24867,6 +27084,9 @@
       "image_path": "images/hearts/heart-1038.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -24880,6 +27100,9 @@
       "image_path": "images/hearts/heart-1039.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24893,6 +27116,9 @@
       "image_path": "images/hearts/heart-1040.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -24906,6 +27132,9 @@
       "image_path": "images/hearts/heart-1041.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24919,6 +27148,9 @@
       "image_path": "images/hearts/heart-1042.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -24932,6 +27164,9 @@
       "image_path": "images/hearts/heart-1043.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -24945,6 +27180,9 @@
       "image_path": "images/hearts/heart-1044.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24958,6 +27196,9 @@
       "image_path": "images/hearts/heart-1045.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -24971,6 +27212,9 @@
       "image_path": "images/hearts/heart-1046.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -24984,6 +27228,9 @@
       "image_path": "images/hearts/heart-1047.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -24997,6 +27244,9 @@
       "image_path": "images/hearts/heart-1048.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -25010,6 +27260,9 @@
       "image_path": "images/hearts/heart-1049.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -25023,6 +27276,9 @@
       "image_path": "images/hearts/heart-1050.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -25036,6 +27292,9 @@
       "image_path": "images/hearts/heart-1051.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -25049,6 +27308,9 @@
       "image_path": "images/hearts/heart-1052.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -25062,6 +27324,9 @@
       "image_path": "images/hearts/heart-1053.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -25075,6 +27340,9 @@
       "image_path": "images/hearts/heart-1054.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -25088,6 +27356,9 @@
       "image_path": "images/hearts/heart-1055.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -25101,6 +27372,9 @@
       "image_path": "images/hearts/heart-1056.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -25114,6 +27388,9 @@
       "image_path": "images/hearts/heart-1057.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -25127,6 +27404,9 @@
       "image_path": "images/hearts/heart-1058.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -25140,6 +27420,9 @@
       "image_path": "images/hearts/heart-1059.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -25153,6 +27436,9 @@
       "image_path": "images/hearts/heart-1060.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -25166,6 +27452,9 @@
       "image_path": "images/hearts/heart-1061.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -25179,6 +27468,9 @@
       "image_path": "images/hearts/heart-1062.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -25192,6 +27484,9 @@
       "image_path": "images/hearts/heart-1063.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -25205,6 +27500,9 @@
       "image_path": "images/hearts/heart-1064.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -25218,6 +27516,9 @@
       "image_path": "images/hearts/heart-1065.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25231,6 +27532,9 @@
       "image_path": "images/hearts/heart-1066.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -25245,6 +27549,9 @@
       "color": [
         "紫",
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25258,6 +27565,9 @@
       "image_path": "images/hearts/heart-1068.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25271,6 +27581,9 @@
       "image_path": "images/hearts/heart-1069.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -25284,6 +27597,9 @@
       "image_path": "images/hearts/heart-1070.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -25297,6 +27613,9 @@
       "image_path": "images/hearts/heart-1071.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25310,6 +27629,9 @@
       "image_path": "images/hearts/heart-1072.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -25323,6 +27645,9 @@
       "image_path": "images/hearts/heart-1073.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -25336,6 +27661,9 @@
       "image_path": "images/hearts/heart-1074.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25349,6 +27677,9 @@
       "image_path": "images/hearts/heart-1075.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25362,6 +27693,9 @@
       "image_path": "images/hearts/heart-1076.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -25376,6 +27710,9 @@
       "color": [
         "紫",
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25389,6 +27726,9 @@
       "image_path": "images/hearts/heart-1077.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -25402,6 +27742,9 @@
       "image_path": "images/hearts/heart-1078.png",
       "color": [
         "白"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25415,6 +27758,9 @@
       "image_path": "images/hearts/heart-1079.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25428,6 +27774,9 @@
       "image_path": "images/hearts/heart-1080.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25441,6 +27790,9 @@
       "image_path": "images/hearts/heart-1081.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25455,6 +27807,9 @@
       "color": [
         "緑",
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25469,6 +27824,9 @@
       "color": [
         "赤",
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25482,6 +27840,9 @@
       "image_path": "images/hearts/heart-1084.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25495,6 +27856,9 @@
       "image_path": "images/hearts/heart-1085.png",
       "color": [
         "黒"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25508,6 +27872,9 @@
       "image_path": "images/hearts/heart-1086.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25521,6 +27888,9 @@
       "image_path": "images/hearts/heart-1087.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -25534,6 +27904,9 @@
       "image_path": "images/hearts/heart-1088.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25547,6 +27920,9 @@
       "image_path": "images/hearts/heart-1089.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -25560,6 +27936,9 @@
       "image_path": "images/hearts/heart-1090.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -25573,6 +27952,9 @@
       "image_path": "images/hearts/heart-1091.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25586,6 +27968,9 @@
       "image_path": "images/hearts/heart-1092.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25600,6 +27985,9 @@
       "color": [
         "紫",
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25613,6 +28001,9 @@
       "image_path": "images/hearts/heart-1094.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -25626,6 +28017,9 @@
       "image_path": "images/hearts/heart-1095.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -25639,6 +28033,9 @@
       "image_path": "images/hearts/heart-1096.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "????系"
       ]
     },
     {
@@ -25652,6 +28049,9 @@
       "image_path": "images/hearts/heart-1097.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25665,6 +28065,9 @@
       "image_path": "images/hearts/heart-1098.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -25679,6 +28082,9 @@
       "color": [
         "赤",
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -25692,6 +28098,9 @@
       "image_path": "images/hearts/heart-1100.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25705,6 +28114,9 @@
       "image_path": "images/hearts/heart-1101.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25718,6 +28130,9 @@
       "image_path": "images/hearts/heart-1102.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -25731,6 +28146,9 @@
       "image_path": "images/hearts/heart-1103.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -25744,6 +28162,9 @@
       "image_path": "images/hearts/heart-1104.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25757,6 +28178,9 @@
       "image_path": "images/hearts/heart-1105.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25771,6 +28195,9 @@
       "color": [
         "赤",
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25785,6 +28212,9 @@
       "color": [
         "青",
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25798,6 +28228,9 @@
       "image_path": "images/hearts/heart-1108.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25811,6 +28244,9 @@
       "image_path": "images/hearts/heart-1109.png",
       "color": [
         "虹"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25824,6 +28260,9 @@
       "image_path": "images/hearts/heart-1110.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25837,6 +28276,9 @@
       "image_path": "images/hearts/heart-1111.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25850,6 +28292,9 @@
       "image_path": "images/hearts/heart-1112.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25863,6 +28308,9 @@
       "image_path": "images/hearts/heart-1113.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25876,6 +28324,9 @@
       "image_path": "images/hearts/heart-1114.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25889,6 +28340,9 @@
       "image_path": "images/hearts/heart-1115.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -25902,6 +28356,9 @@
       "image_path": "images/hearts/heart-1116.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25915,6 +28372,9 @@
       "image_path": "images/hearts/heart-1117.png",
       "color": [
         "虹"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25928,6 +28388,9 @@
       "image_path": "images/hearts/heart-1118.png",
       "color": [
         "虹"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25941,6 +28404,9 @@
       "image_path": "images/hearts/heart-1119.png",
       "color": [
         "虹"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25954,6 +28420,9 @@
       "image_path": "images/hearts/heart-1120.png",
       "color": [
         "虹"
+      ],
+      "keito": [
+        "その他/特別"
       ]
     },
     {
@@ -25967,6 +28436,9 @@
       "image_path": "images/hearts/heart-1121.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -25980,6 +28452,9 @@
       "image_path": "images/hearts/heart-1122.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -25993,6 +28468,9 @@
       "image_path": "images/hearts/heart-1123.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26006,6 +28484,9 @@
       "image_path": "images/hearts/heart-1124.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26019,6 +28500,9 @@
       "image_path": "images/hearts/heart-1125.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -26032,6 +28516,9 @@
       "image_path": "images/hearts/heart-1126.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -26045,6 +28532,9 @@
       "image_path": "images/hearts/heart-1127.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26058,6 +28548,9 @@
       "image_path": "images/hearts/heart-1128.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26071,6 +28564,9 @@
       "image_path": "images/hearts/heart-1129.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -26084,6 +28580,9 @@
       "image_path": "images/hearts/heart-1130.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26097,6 +28596,9 @@
       "image_path": "images/hearts/heart-1131.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -26110,6 +28612,9 @@
       "image_path": "images/hearts/heart-1132.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -26123,6 +28628,9 @@
       "image_path": "images/hearts/heart-1133.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26136,6 +28644,9 @@
       "image_path": "images/hearts/heart-1134.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26149,6 +28660,9 @@
       "image_path": "images/hearts/heart-1135.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26162,6 +28676,9 @@
       "image_path": "images/hearts/heart-1136.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26175,6 +28692,9 @@
       "image_path": "images/hearts/heart-1137.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -26188,6 +28708,9 @@
       "image_path": "images/hearts/heart-1138.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -26201,6 +28724,9 @@
       "image_path": "images/hearts/heart-1139.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -26214,6 +28740,9 @@
       "image_path": "images/hearts/heart-1140.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -26227,6 +28756,9 @@
       "image_path": "images/hearts/heart-1141.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26240,6 +28772,9 @@
       "image_path": "images/hearts/heart-1142.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26253,6 +28788,9 @@
       "image_path": "images/hearts/heart-1143.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26266,6 +28804,9 @@
       "image_path": "images/hearts/heart-1144.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26279,6 +28820,9 @@
       "image_path": "images/hearts/heart-1145.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -26292,6 +28836,9 @@
       "image_path": "images/hearts/heart-1146.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26305,6 +28852,9 @@
       "image_path": "images/hearts/heart-1147.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26318,6 +28868,9 @@
       "image_path": "images/hearts/heart-1148.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -26331,6 +28884,9 @@
       "image_path": "images/hearts/heart-1149.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26344,6 +28900,9 @@
       "image_path": "images/hearts/heart-1150.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26357,6 +28916,9 @@
       "image_path": "images/hearts/heart-1151.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26370,6 +28932,9 @@
       "image_path": "images/hearts/heart-1152.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26383,6 +28948,9 @@
       "image_path": "images/hearts/heart-1153.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -26396,6 +28964,9 @@
       "image_path": "images/hearts/heart-1154.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -26409,6 +28980,9 @@
       "image_path": "images/hearts/heart-1155.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26422,6 +28996,9 @@
       "image_path": "images/hearts/heart-1156.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26435,6 +29012,9 @@
       "image_path": "images/hearts/heart-1157.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26448,6 +29028,9 @@
       "image_path": "images/hearts/heart-1158.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26461,6 +29044,9 @@
       "image_path": "images/hearts/heart-1159.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -26474,6 +29060,9 @@
       "image_path": "images/hearts/heart-1160.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26487,6 +29076,9 @@
       "image_path": "images/hearts/heart-1161.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26500,6 +29092,9 @@
       "image_path": "images/hearts/heart-1162.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -26513,6 +29108,9 @@
       "image_path": "images/hearts/heart-1163.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26526,6 +29124,9 @@
       "image_path": "images/hearts/heart-1164.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -26539,6 +29140,9 @@
       "image_path": "images/hearts/heart-1165.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26552,6 +29156,9 @@
       "image_path": "images/hearts/heart-1166.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -26565,6 +29172,9 @@
       "image_path": "images/hearts/heart-1167.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26578,6 +29188,9 @@
       "image_path": "images/hearts/heart-1168.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -26591,6 +29204,9 @@
       "image_path": "images/hearts/heart-1169.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26604,6 +29220,9 @@
       "image_path": "images/hearts/heart-1170.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26617,6 +29236,9 @@
       "image_path": "images/hearts/heart-1171.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -26630,6 +29252,9 @@
       "image_path": "images/hearts/heart-1172.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26643,6 +29268,9 @@
       "image_path": "images/hearts/heart-1173.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26656,6 +29284,9 @@
       "image_path": "images/hearts/heart-1174.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26669,6 +29300,9 @@
       "image_path": "images/hearts/heart-1175.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26682,6 +29316,9 @@
       "image_path": "images/hearts/heart-1176.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26695,6 +29332,9 @@
       "image_path": "images/hearts/heart-1177.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -26708,6 +29348,9 @@
       "image_path": "images/hearts/heart-1178.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26721,6 +29364,9 @@
       "image_path": "images/hearts/heart-1179.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -26734,6 +29380,9 @@
       "image_path": "images/hearts/heart-1180.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26747,6 +29396,9 @@
       "image_path": "images/hearts/heart-1181.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26760,6 +29412,9 @@
       "image_path": "images/hearts/heart-1182.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26773,6 +29428,9 @@
       "image_path": "images/hearts/heart-1183.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26786,6 +29444,9 @@
       "image_path": "images/hearts/heart-1184.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -26799,6 +29460,9 @@
       "image_path": "images/hearts/heart-1185.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26812,6 +29476,9 @@
       "image_path": "images/hearts/heart-1186.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -26825,6 +29492,9 @@
       "image_path": "images/hearts/heart-1187.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26838,6 +29508,9 @@
       "image_path": "images/hearts/heart-1188.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26851,6 +29524,9 @@
       "image_path": "images/hearts/heart-1189.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26864,6 +29540,9 @@
       "image_path": "images/hearts/heart-1190.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -26877,6 +29556,9 @@
       "image_path": "images/hearts/heart-1191.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -26890,6 +29572,9 @@
       "image_path": "images/hearts/heart-1192.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -26903,6 +29588,9 @@
       "image_path": "images/hearts/heart-1193.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -26916,6 +29604,9 @@
       "image_path": "images/hearts/heart-1194.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26929,6 +29620,9 @@
       "image_path": "images/hearts/heart-1195.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -26942,6 +29636,9 @@
       "image_path": "images/hearts/heart-1196.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26955,6 +29652,9 @@
       "image_path": "images/hearts/heart-1197.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -26968,6 +29668,9 @@
       "image_path": "images/hearts/heart-1198.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -26981,6 +29684,9 @@
       "image_path": "images/hearts/heart-1199.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -26994,6 +29700,9 @@
       "image_path": "images/hearts/heart-1200.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -27007,6 +29716,9 @@
       "image_path": "images/hearts/heart-1201.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -27020,6 +29732,9 @@
       "image_path": "images/hearts/heart-1202.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "マシン系"
       ]
     },
     {
@@ -27033,6 +29748,9 @@
       "image_path": "images/hearts/heart-1203.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -27046,6 +29764,9 @@
       "image_path": "images/hearts/heart-1204.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -27059,6 +29780,9 @@
       "image_path": "images/hearts/heart-1205.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -27072,6 +29796,9 @@
       "image_path": "images/hearts/heart-1206.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "物質系"
       ]
     },
     {
@@ -27085,6 +29812,9 @@
       "image_path": "images/hearts/heart-1207.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -27098,6 +29828,9 @@
       "image_path": "images/hearts/heart-1208.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -27111,6 +29844,9 @@
       "image_path": "images/hearts/heart-1209.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -27124,6 +29860,9 @@
       "image_path": "images/hearts/heart-1210.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -27137,6 +29876,9 @@
       "image_path": "images/hearts/heart-1211.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "エレメント系"
       ]
     },
     {
@@ -27150,6 +29892,9 @@
       "image_path": "images/hearts/heart-1212.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -27163,6 +29908,9 @@
       "image_path": "images/hearts/heart-1213.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "水系"
       ]
     },
     {
@@ -27176,6 +29924,9 @@
       "image_path": "images/hearts/heart-1214.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -27189,6 +29940,9 @@
       "image_path": "images/hearts/heart-1215.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -27202,6 +29956,9 @@
       "image_path": "images/hearts/heart-1216.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "ドラゴン系"
       ]
     },
     {
@@ -27215,6 +29972,9 @@
       "image_path": "images/hearts/heart-1217.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "植物系"
       ]
     },
     {
@@ -27228,6 +29988,9 @@
       "image_path": "images/hearts/heart-1218.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -27241,6 +30004,9 @@
       "image_path": "images/hearts/heart-1219.png",
       "color": [
         "青"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -27254,6 +30020,9 @@
       "image_path": "images/hearts/heart-1220.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "怪人系"
       ]
     },
     {
@@ -27267,6 +30036,9 @@
       "image_path": "images/hearts/heart-1221.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -27280,6 +30052,9 @@
       "image_path": "images/hearts/heart-1222.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "虫系"
       ]
     },
     {
@@ -27293,6 +30068,9 @@
       "image_path": "images/hearts/heart-1223.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "獣系"
       ]
     },
     {
@@ -27306,6 +30084,9 @@
       "image_path": "images/hearts/heart-1224.png",
       "color": [
         "紫"
+      ],
+      "keito": [
+        "悪魔系"
       ]
     },
     {
@@ -27319,6 +30100,9 @@
       "image_path": "images/hearts/heart-1225.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "ゾンビ系"
       ]
     },
     {
@@ -27332,6 +30116,9 @@
       "image_path": "images/hearts/heart-1226.png",
       "color": [
         "赤"
+      ],
+      "keito": [
+        "スライム系"
       ]
     },
     {
@@ -27345,6 +30132,9 @@
       "image_path": "images/hearts/heart-1227.png",
       "color": [
         "緑"
+      ],
+      "keito": [
+        "鳥系"
       ]
     },
     {
@@ -27358,6 +30148,9 @@
       "image_path": "images/hearts/heart-1228.png",
       "color": [
         "黄"
+      ],
+      "keito": [
+        "スライム系"
       ]
     }
   ]
