@@ -41,6 +41,13 @@ http://127.0.0.1:8765
 ..\.venv\Scripts\python.exe sync_gamewith.py
 ```
 
+**注意：`sync_gamewith.py`だけだと、武器の種類（片手剣・オノなど）・こころの色・こころの系統（スライム系など）の情報が一旦消えます。** 必ず続けて次の2つも実行してください（この順番で、武器・こころの更新のたびに毎回）。
+
+```text
+..\.venv\Scripts\python.exe sync_categories.py
+..\.venv\Scripts\python.exe sync_keito.py
+```
+
 更新後にブラウザを再読み込みすると、最新の一覧が表示されます。ページに掲載されている更新日も保存します。既存の項目は同じIDを引き継ぐため、所持チェックを維持しやすくしています。
 
 終了するときは、実行中の画面で `Ctrl+C` を押します。
