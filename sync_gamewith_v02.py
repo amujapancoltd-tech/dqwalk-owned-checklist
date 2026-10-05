@@ -2,7 +2,8 @@
 
 v01からの変更点：新しい項目に付けるIDを「その種類の今ある最大の番号＋1」にした。
 v01は「何番目か」で付けていたため、既存のIDとかぶることがあった（かぶると
-所持チェックの印が別の項目にもついてしまう）。
+所持チェックの印が別の項目にもついてしまう）。また、v01は「くわしい特徴（long_detail）」を
+消してしまっていたため、v02では引き継ぐ。
 """
 
 import json
@@ -165,6 +166,9 @@ def main():
             item["source_url"] = url
             normalized_item_url = normalize_detail_url(item.get("detail_url"))
             item["detail_url"] = normalized_item_url or url
+            if previous and previous.get("long_detail"):
+                # 「くわしい特徴」は別のスクリプトで取得するため、消さずに引き継ぐ
+                item["long_detail"] = previous["long_detail"]
             if previous:
                 previous_url = normalize_detail_url(previous.get("detail_url"))
                 if previous_url:
