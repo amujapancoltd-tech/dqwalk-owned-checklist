@@ -94,7 +94,8 @@ def extract_heart_info(article_body, name):
     fragment = fragment.replace("ランク別特殊効果", "【ランク特殊効果】\n", 1)
     # 「ランク別ステータス」の後ろに続く生の数値の羅列（HP・MPなどの数字が
     # 区切りなく並んだだけで人が読んでも意味が分からない）は、丸ごと取り除く。
-    fragment = re.sub(r"\nランク別ステータス[^\n]*", "", fragment)
+    # （行の途中から始まっていても消えるよう、改行の有無は問わない）
+    fragment = re.sub(r"ランク別ステータス[^\n]*", "", fragment)
     return fragment.strip()
 
 
