@@ -14,7 +14,7 @@ import sys
 import urllib.request
 from pathlib import Path
 
-import build_detail_pages
+import build_detail_pages_v02 as build_detail_pages
 
 PROJECT_DIR = Path(__file__).parent
 DATA_FILE = PROJECT_DIR / "data.json"
